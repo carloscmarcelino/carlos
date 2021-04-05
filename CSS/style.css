@@ -1,0 +1,377 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+  /*font-family: 'Roboto', sans-serif;*/
+  /*font-family: 'Roboto Slab', serif;*/
+}
+body{
+  background: #181815;
+}
+/*---------------------------------------------------   MENU   --------------------------------------------------------*/
+#cabecalho{
+  width: 100%;
+}
+#cabecalho .cabecalho-container{
+  font-family: 'Roboto', sans-serif;
+  font-size: 22px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 40px;
+}
+#cabecalho .cabecalho-container .container-titulo{
+  color: orange;
+  margin-left: 10%;
+  margin-top: 40px;
+  font-size: 50px;
+  width: 5%;
+}
+#cabecalho .cabecalho-container .container-info{
+  width: 100%;
+  text-align: right;
+  letter-spacing: 1px;
+  padding: 10px 20px;
+  margin-right: 5%;
+  margin-top: 45px;
+  min-width: 710px;
+}
+#cabecalho .container-info a{
+  padding: 0px 20px;
+}
+
+.laranja{
+  color: orange;
+}
+/*---------------------------------------------------   MENU   --------------------------------------------------------*/
+/*---------------------------------------------------   CONTEUDO   ----------------------------------------------------*/
+#conteudo{
+  width: 90%;
+  margin-left: 3%;
+  height: 700px;
+}
+#conteudo .conteudo-container{
+  width: auto;
+  display: inline-block;
+  margin-top: 12%;
+  margin-left: 2%;
+  font-size: 20px;
+}
+#conteudo .conteudo-container h2{
+  padding: 12px 20px;
+  font-family: 'Roboto Slab', serif;
+}
+#conteudo .conteudo-container h1{
+  padding: 12px 20px;
+  font-family: 'Roboto Slab', serif;
+}
+#conteudo .conteudo-container p{
+  padding: 12px 20px;
+  font-family: arial;
+  font-size: 16px;
+}
+#conteudo .conteudo-container a{
+  padding: 12px 20px;
+  font-family: arial;
+  font-size: 16px;
+  color: #00FF00;
+}
+.vermelho{
+  color: red;
+}
+/*---------------------------------------------------   CONTEUDO   ------------------------------------------------------*/
+/*---------------------------------------------------   RODAPE   --------------------------------------------------------*/
+footer{
+  margin-top: 4%;
+  width: 100%;
+  text-align: center;
+}
+
+footer .rodape h2{
+  font-family: 'Roboto', sans-serif;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+footer .rodape i{
+  font-size: 25px;
+  margin-left: 20px;
+}
+footer .rodape i:hover{
+  color: orange;
+  margin-bottom: 10px;
+}
+/*---------------------------------------------------   RODAPE   --------------------------------------------------------*/
+/*---------------------------------------------------   SOBREMIM   ------------------------------------------------------*/
+#sobremim{
+  height: 700px;
+  width: 100%;
+  display: flex;
+}
+#sobremim .sobremim-container{
+  width: 40%;
+  margin-left: 3%;
+  margin-top: 6%;
+}
+#sobremim .sobremim-container h2{
+  font-size: 30px;
+  font-family: 'Roboto Slab', serif;
+}
+#sobremim .sobremim-container p{
+  font-family: arial;
+  font-size: 16px;
+  width: 100%;
+}
+#sobremim .sobremim-img{
+  margin-left:5%;
+  margin-top: 8%;
+  width: 100%;
+  text-align: right;
+  margin-right: 5%;
+}
+#sobremim .sobremim-img img{
+  border-radius: 100%;
+  height: 260px;
+  border: 2px solid orange;
+}
+/*---------------------------------------------------   SOBREMIM   --------------------------------------------------------*/
+/*---------------------------------------------------   PORTIFOLIO   ------------------------------------------------------*/
+#portifolio{
+  height: 550px;
+}
+#portifolio .portifolio-container{
+  margin: 10% 25%;
+  display: flex;
+  align-items: center;
+}
+#portifolio .portifolio-container img{
+  height: 200px;
+  border-radius: 100%;
+}
+#portifolio .portifolio-container p{
+  width: 500px;
+  font-size: 16px;
+  font-family: arial;
+  margin-left: 5%;
+}
+#portifolio .portifolio-container a{
+  display: block;
+  text-align: left;
+  color: #00FF00;
+}
+/*---------------------------------------------------   PORTIFOLIO   ------------------------------------------------------*/
+/*---------------------------------------------------   SETUP  ------------------------------------------------------------*/
+#setup{
+  height: 700px;
+  width: 100%;
+}
+#setup .setup-container{
+  display: inline-block;
+  height: auto;
+  text-align: left;
+  margin-top: 10%;
+  margin-left: 45%;
+}
+#setup .setup-container h2{
+  font-size: 40px;
+  padding-left: 10px;
+}
+#setup .setup-container ul{
+  font-size: 20px;
+}
+#setup .setup-container ul a{
+  display: block;
+  padding: 10px 15px;
+}
+#setup .setup-container ul a i{
+  padding-right: 5px;
+}
+/*---------------------------------------------------   SETUP   -----------------------------------------------------------*/
+/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
+/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
+@media (max-width: 1000px){
+/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
+/*------------------------------------------------------------ MEDIA MOBILE ------------------------------------------------------------*/
+  /*------------------------------------------------------------ CABEÇALHO ------------------------------------------------------------*/
+  #cabecalho{
+    display: flex;
+  }
+  #cabecalho .cabecalho-container{
+    flex-direction: column;
+  }
+  #cabecalho .cabecalho-container .container-titulo{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    font-size: 0px;
+  }
+  #cabecalho .cabecalho-container .container-info{
+    width: 100%;
+    margin: 5% 0 3%;;
+    text-align: center;
+    font-size: 50px;
+  }
+  /*------------------------------------------------------------ CABEÇALHO ------------------------------------------------------------*/
+  /*------------------------------------------------------------ CONTEUDO ------------------------------------------------------------*/
+  #conteudo{
+    text-align: center;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 1300px;
+  }
+  #conteudo .conteudo-container{
+    margin: 0;
+    padding: 0;
+    height: 1300px;
+    padding-top: 50px;
+    width: 100%;
+    font-size: 42px;
+    text-align: left;
+  }
+  #conteudo .conteudo-container .conteudo-text{
+    margin-top: 50px;
+  }
+  #conteudo .conteudo-container h2.conteudo-text{
+    font-size: 105px;
+  }
+  #conteudo .conteudo-container h1.conteudo-text{
+    font-size: 130px;
+  }
+  #conteudo .conteudo-container p.conteudo-text{
+    font-size: 60px;
+  }
+  #conteudo .conteudo-container a.conteudo-text{
+    font-size: 60px;
+    color: #00FF00;
+  }
+  /*------------------------------------------------------------ CONTEUDO ------------------------------------------------------------*/
+  /*------------------------------------------------------------ RODAPE ------------------------------------------------------------*/
+  footer{
+    height: 250px;
+    margin: 0;
+    padding: 0;
+  }
+  footer .rodape{
+    margin-top: 50px;
+  }
+  footer .rodape h2{
+    font-size: 40px;
+    margin-top: 20px;
+  }
+  footer .rodape i{
+    margin-top: 20px;
+    font-size: 80px;
+    padding: 0 50px;
+  }
+  /*------------------------------------------------------------ RODAPE ------------------------------------------------------------*/
+  /*------------------------------------------------------------ SOBREMIM ------------------------------------------------------------*/
+  #sobremim{
+    height: 1300px;
+    width: 100%;
+    display: block;
+  }
+  #sobremim .sobremim-container{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+  #sobremim .sobremim-container h2{
+    font-size: 100px;
+    width: 100%;
+  }
+  #sobremim .sobremim-container p{
+    font-size: 55px;
+  }
+  #sobremim .sobremim-img{
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+  }
+  #sobremim .sobremim-img img{
+    width: 400px;
+    height: 400px;
+    border: 4px solid orange;
+  }
+  /*------------------------------------------------------------ SOBREMIM ------------------------------------------------------------*/
+  /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
+  #portifolio{
+    height: 1300px;
+  }
+  #portifolio .portifolio-container{
+    width: 100%;
+    height: 1300px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    padding-top: 100px;
+  }
+  #portifolio .portifolio-container a{
+    text-align: center;
+  }
+  #portifolio .portifolio-container a img{
+    height: 300px;
+  }
+  #portifolio .portifolio-container p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 50px;
+    margin-top: 50px;
+  }
+  /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
+  /*------------------------------------------------------------ SETUP ------------------------------------------------------------*/
+  #setup{
+    height: 1300px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #setup .setup-container{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  #setup .setup-container h2{
+    font-size: 120px;
+  }
+  #setup .setup-container ul{
+    font-size: 90px;
+    text-align: left;
+  }
+  #setup .setup-container ul li{
+  }
+  #setup .setup-container ul i{
+  }
+  /*------------------------------------------------------------ SETUP ------------------------------------------------------------*/
+}
+/* This is a compiled file, you should be editing the file in the templates directory */
+.pace {
+  -webkit-pointer-events: none;
+  pointer-events: none;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+.pace-inactive {
+  display: none;
+}
+
+.pace .pace-progress {
+  background: #eb7a55;
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 100%;
+  width: 100%;
+  height: 2px;
+}
