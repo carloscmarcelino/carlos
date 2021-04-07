@@ -48,7 +48,7 @@ body{
 #conteudo{
   width: 90%;
   margin-left: 3%;
-  height: 700px;
+  height: 740px;
 }
 #conteudo .conteudo-container{
   width: auto;
@@ -85,11 +85,6 @@ footer{
   width: 100%;
   text-align: center;
 }
-footer .rodape h2{
-  font-family: 'Roboto', sans-serif;
-  margin-bottom: 10px;
-  font-size: 20px;
-}
 footer .rodape i{
   font-size: 25px;
   margin-left: 20px;
@@ -101,7 +96,7 @@ footer .rodape i:hover{
 /*---------------------------------------------------   RODAPE   --------------------------------------------------------*/
 /*---------------------------------------------------   SOBREMIM   ------------------------------------------------------*/
 #sobremim{
-  height: 700px;
+  height: 740px;
   width: 100%;
   display: flex;
 }
@@ -134,10 +129,10 @@ footer .rodape i:hover{
 /*---------------------------------------------------   SOBREMIM   --------------------------------------------------------*/
 /*---------------------------------------------------   PORTIFOLIO   ------------------------------------------------------*/
 #portifolio{
-  height: 550px;
+  height: 740px;
 }
 #portifolio .portifolio-container{
-  margin: 10% 25%;
+  padding: 10% 30%;
   display: flex;
   align-items: center;
 }
@@ -159,7 +154,7 @@ footer .rodape i:hover{
 /*---------------------------------------------------   PORTIFOLIO   ------------------------------------------------------*/
 /*---------------------------------------------------   SETUP  ------------------------------------------------------------*/
 #setup{
-  height: 700px;
+  height: 740px;
   width: 100%;
 }
 #setup .setup-container{
@@ -209,7 +204,7 @@ footer .rodape i:hover{
     width: 100%;
     margin: 0;
     padding: 0;
-    height: 1300px;
+    height: 1350px;
   }
   #conteudo .conteudo-container{
     margin: 0;
@@ -217,6 +212,7 @@ footer .rodape i:hover{
     height: 1300px;
     width: 100%;
     text-align: left;
+    padding: 0 1.5em;
   }
   #conteudo .conteudo-container .conteudo-text{
     margin: 0;
@@ -250,10 +246,6 @@ footer .rodape i:hover{
   footer .rodape{
     margin-top: 50px;
   }
-  footer .rodape h2{
-    font-size: 40px;
-    margin-top: 20px;
-  }
   footer .rodape i{
     margin-top: 20px;
     font-size: 80px;
@@ -262,7 +254,7 @@ footer .rodape i:hover{
   /*------------------------------------------------------------ RODAPE ------------------------------------------------------------*/
   /*------------------------------------------------------------ SOBREMIM ------------------------------------------------------------*/
   #sobremim{
-    height: 1300px;
+    height: 1350px;
     width: 100%;
     display: block;
   }
@@ -270,6 +262,7 @@ footer .rodape i:hover{
     width: 100%;
     padding: 0;
     margin: 0;
+    padding: 0 1.5em;
   }
   #sobremim .sobremim-container h2{
     font-size: 80px;
@@ -291,7 +284,7 @@ footer .rodape i:hover{
   /*------------------------------------------------------------ SOBREMIM ------------------------------------------------------------*/
   /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
   #portifolio{
-    height: 1300px;
+    height: 1350px;
   }
   #portifolio .portifolio-container{
     width: 100%;
@@ -300,6 +293,7 @@ footer .rodape i:hover{
     padding: 0;
     display: block;
     padding-top: 100px;
+    padding-left: 1.5em;
   }
   #portifolio .portifolio-container a{
     text-align: center;
@@ -317,7 +311,7 @@ footer .rodape i:hover{
   /*------------------------------------------------------------ PORTIFOLIO ------------------------------------------------------------*/
   /*------------------------------------------------------------ SETUP ------------------------------------------------------------*/
   #setup{
-    height: 1300px;
+    height: 1350px;
     width: 100%;
     margin: 0;
     padding: 0;
@@ -334,7 +328,8 @@ footer .rodape i:hover{
   }
   #setup .setup-container ul{
     font-size: 40px;
-    text-align: center;
+    text-align: left;
+    padding-left: 25%;
   }
   /*------------------------------------------------------------ SETUP ------------------------------------------------------------*/
   /*------------------------------------------------------------ MOBILE ------------------------------------------------------------*/
