@@ -235,8 +235,8 @@ footer .rodape i:hover{
   }
   #conteudo .conteudo-container h2.conteudo-text{
     font-size: 100px;
-    /*margin-top: 50px;*/
     margin-bottom: 30px;
+    margin-top: 20%;
   }
   #conteudo .conteudo-container h1.conteudo-text{
     font-size: 105px;
@@ -285,11 +285,10 @@ footer .rodape i:hover{
     margin: 0;
   }
   #sobremim .sobremim-container h2{
-    font-size: 100px;
-    width: 100%;
+    font-size: 90px;
   }
   #sobremim .sobremim-container p{
-    font-size: 55px;
+    font-size: 45px;
   }
   #sobremim .sobremim-img{
     width: 100%;
