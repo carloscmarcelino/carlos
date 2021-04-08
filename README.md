@@ -1,4 +1,4 @@
 Desenvolvendo meu site
 
-90% web
-90% mobile
+99% web
+1% mobile
