@@ -2,16 +2,13 @@
 .pace {
     -webkit-pointer-events: none;
     pointer-events: none;
-  
     -webkit-user-select: none;
     -moz-user-select: none;
     user-select: none;
   }
-  
   .pace-inactive {
     display: none;
   }
-  
   .pace .pace-progress {
     background: #eb7a55;
     position: fixed;
@@ -178,46 +175,47 @@ header .container-lista li a:hover{
 /*----------------------------------------------SKILLS----------------------------------------------*/
 #skills{
     width: 99vw;
-    height: 40vh;
-    background-color: #0f0f0a;  
+    height: 75%;
+    background-color: #0f0f0a; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #skills h2{
-    margin: 3vh 0;
-    text-align: center;
+    margin: 3vh 0 0 0;
     font-family: 'Fira Code', monospace;
     font-size: 25px;
     color: orange;
-    padding-top: 10px;
-}
-#skills .skills-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-#skills .skills-container ul {
-    display: flex;
-    flex-direction: row;
-}
-#skills .skills-container ul li{
-    height: 300px;
-    width: 150px;
-    margin: 0 1vw;
-    background-color: #181815;
-}
-#skills .skills-container ul li i{
-    font-size: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: orange;
-    height: 75%;
-    padding-top: 20%;
-}
-#skills .skills-container ul li p{
-    font-size: 20px;
+    padding-top: ;
     text-align: center;
-    font-family: 'Fira Code', monospace;
-    font-size: 16px;
+}
+#skills .container{
+    width: 90vw;
+    padding: 30px 0;
+    justify-items: center;
+    justify-content: center;
+    display: grid;
+    grid-gap: 30px 40px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+}
+#skills .container .card{
+    border: 1px solid orange;
+    height:  300px;
+    width: 200px;
+    background-color: #181815;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#skills .container .card i{
+    color: orange;
+    height: 80%;
+    font-size: 50px;
+}
+#skills .container .card p{
+    font-size: 20px;
 }
 /*----------------------------------------------SKILLS----------------------------------------------*/
 /*----------------------------------------------FOOTER----------------------------------------------*/
@@ -322,31 +320,8 @@ footer i:hover{
     #portifolio .portifolio-container .coments h2{
         width: 50%;
     }
-
-
-
-
-
-
-    
-    #skills{
-        width: 100%;
-    }
-    #skills .skills-container{
-        padding: 0;
-        margin: 0;
-        width: 100%;
-    }
-    #skills .skills-container ul{
-        display: flex;
-        flex-direction: column;
-    }
-    #skills .skills-container li{
-    }
-    #skills .skills-container i{
-    }
-    #skills .skills-container li p{
+    #skills .container{
+        grid-template-columns: repeat(2, minmax(20px,1fr));
     }
 
 }
-
