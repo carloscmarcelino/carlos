@@ -252,12 +252,6 @@ footer i:hover{
         margin: 0;
     }
 }
-
-
-
-
-
-
 @media only screen and (max-width: 960px){
     #sobremim{
         height: 55vh;
@@ -320,12 +314,6 @@ footer i:hover{
         padding-top: 5%;
     }
 }
-
-
-
-
-
-
 @media only screen and (max-width: 460px){
     header .container{
         flex-direction: column;
