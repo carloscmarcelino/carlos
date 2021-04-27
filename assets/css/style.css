@@ -1,0 +1,217 @@
+/*----------------------------------------------PADRÃO----------------------------------------------*/
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  color: #fff;
+  text-decoration: none;
+}
+.verde{
+    color: #00FF00;
+}
+.laranja{
+    color: orange;
+}
+.vermelho{
+    color: red;
+}
+body{
+    background: #181815;
+}
+/*----------------------------------------------PADRÃO----------------------------------------------*/
+/*----------------------------------------------HEADER----------------------------------------------*/
+header{
+    width: 99vw;
+    height: 10vh;
+    background-color: #0f0f0a;
+}
+header .container{
+    display: flex;
+    justify-content: space-around;
+}
+header .container-icon{
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 2vw;
+}
+header .container-icon i{
+    font-size: 5vh;
+}
+header .container-lista ul {
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 20px;
+}
+header .container-lista li a{
+    padding: 0 2vw;
+}
+header .container-lista li a:hover{
+    color: orange;
+}
+/*----------------------------------------------HEADER----------------------------------------------*/
+/*----------------------------------------------INICIO----------------------------------------------*/
+#inicio{
+    height: 90vh;
+    width: 99vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#inicio .inicio-container{
+    margin-right: 45%;
+    display: inline-block;
+}
+#inicio .inicio-container h2{
+    font-family: 'Fira Code', monospace;
+    font-size: 30px;
+    width: 100%;
+    margin: 0 0 10px 0;
+}
+#inicio .inicio-container h1{
+    font-family: 'Fira Code', monospace;
+    font-size: 36px;
+    margin: 0 0 15px 0;
+}
+#inicio .inicio-container p, a{
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+}
+/*----------------------------------------------INICIO----------------------------------------------*/
+/*----------------------------------------------SOBREMIM----------------------------------------------*/
+#sobremim{
+    width: 99vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0f0a;
+}
+#sobremim .sobremim-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#sobremim .sobremim-container img{
+    height: 20vh;
+    border-radius: 100%;
+    border: 2px solid orange;
+    margin-right: 5vw;
+}
+#sobremim .sobremim-container p{
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    width: 25vw;
+}
+#sobremim .sobremim-container .coments h2{
+    font-family: 'Fira Code', monospace;
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/*----------------------------------------------SOBREMIM----------------------------------------------*/
+/*----------------------------------------------PORTIFOLIO----------------------------------------------*/
+#portifolio{
+    width: 99vw;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#portifolio .portifolio-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+#portifolio .portifolio-container p{
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+    width: 25vw;
+    width: 25vw;
+}
+#portifolio .portifolio-container a{
+    border-radius: 100%;
+    border: 2px solid orange;
+    margin-right: 5vw;
+}
+#portifolio img{
+    height: 20vh;
+}
+#portifolio .portifolio-container .coments h2{
+    font-family: 'Fira Code', monospace;
+    color: orange;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+/*----------------------------------------------PORTIFOLIO----------------------------------------------*/
+/*----------------------------------------------SKILLS----------------------------------------------*/
+#skills{
+    width: 99vw;
+    height: 40vh;
+    background-color: #0f0f0a;  
+}
+#skills h2{
+    margin: 3vh 0;
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 25px;
+    color: orange;
+}
+#skills .skills-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#skills .skills-container ul {
+    display: flex;
+    flex-direction: row;
+}
+#skills .skills-container ul li{
+    height: 300px;
+    width: 150px;
+    margin: 0 1vw;
+    background-color: #181815;
+}
+#skills .skills-container ul li i{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+    height: 75%;
+    padding-top: 20%;
+}
+#skills .skills-container ul li p{
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
+}
+/*----------------------------------------------SKILLS----------------------------------------------*/
+/*----------------------------------------------FOOTER----------------------------------------------*/
+footer{
+    width: 99vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+footer i{
+    font-size: 25px;
+    margin: 10px 20px;
+}
+footer i:hover{
+    color: orange;
+}
+/*----------------------------------------------FOOTER----------------------------------------------*/
+@media only screen and (max-width: 1000px){
+    *{
+        color: red;
+    }
+}
