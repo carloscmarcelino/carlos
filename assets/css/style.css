@@ -199,7 +199,6 @@ header .container-lista li a:hover{
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
 }
 #skills .container .card{
-    border: 1px solid orange;
     height:  300px;
     width: 200px;
     background-color: #181815;
@@ -253,6 +252,79 @@ footer i:hover{
         margin: 0;
     }
 }
+
+
+
+
+
+
+@media only screen and (max-width: 960px){
+    #sobremim{
+        height: 55vh;
+        width: 100vw;
+    }
+    #sobremim .sobremim-container{
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+    }
+    #sobremim .sobremim-container img{
+        padding: 0;
+        margin: 0;
+    }
+    #sobremim .sobremim-container .coments{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sobremim .sobremim-container .coments p{
+        width: 70%;
+        height: 100%;
+    }
+    #sobremim .sobremim-container .coments h2{
+        width: 50%;
+        padding-top: 5%;
+    }
+    #portifolio{
+        height: 50vh;
+        width: 100vw;
+    }
+    #portifolio .portifolio-container{
+        flex-direction: column;
+        text-align: center;
+        height: 100%;
+        width: 100%;
+        padding-top: 5%;
+    }
+    #portifolio .portifolio-container img{
+        padding: 0;
+        margin: 0;
+    }
+    #portifolio .portifolio-container .coments{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #portifolio .portifolio-container .coments p{
+        width: 70%;
+        height: 100%;
+    }
+    #portifolio .portifolio-container .coments h2{
+        width: 50%;
+        padding-top: 5%;
+    }
+}
+
+
+
+
+
 
 @media only screen and (max-width: 460px){
     header .container{
