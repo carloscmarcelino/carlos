@@ -281,7 +281,8 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--bg);
+    /*background-color: var(--bg);*/
+    background: linear-gradient(#9B30F9, #84e);
 }
 footer i{
     font-size: 25px;
