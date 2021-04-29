@@ -302,7 +302,7 @@ header .container-lista li a:hover{
 /*----------------------------------------------FOOTER----------------------------------------------*/
 footer{
     width: 99vw;
-    height: 8vh;
+    height: 12vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -364,6 +364,9 @@ footer i:hover{
         width: 100%;
         padding-top: 5%;
     }
+    #sobremim .sobremim-container p{
+        text-align: left;
+    }
     #sobremim .sobremim-container img{
         padding: 0;
         margin: 0;
@@ -393,6 +396,9 @@ footer i:hover{
         height: 100%;
         width: 100%;
         padding-top: 5%;
+    }
+    #portifolio .portifolio-container p{
+        text-align: left;
     }
     #portifolio .portifolio-container img{
         padding: 0;
@@ -495,22 +501,30 @@ footer i:hover{
         width: 50%;
     }
 }
+@media only screen and (max-width: 380px){
+    header .container-lista li a{
+        font-size: 0.8em;
+    }
+}
 @media only screen and (max-width: 356px){
     header .container-lista li a{
-        font-size: 14px;  
+        font-size: 0.6em; 
     }
 }
 @media only screen and (max-width: 311px){
     header .container-lista li a{
-        font-size: 12px;  
+        font-size: 0.5em;
     }
 }
-@media only screen and (max-width: 250px){
+@media only screen and (max-width: 285px){
+    #inicio{
+        height: 60vh;
+    }
     #sobremim{
-        height: 70vh;
+        height: auto;
     }
     #portifolio{
-        height: 60vh;
+        height: auto;
     }
 }
 /*----------------------------------------------MEDIA-QUERY----------------------------------------------*/
