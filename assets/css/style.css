@@ -163,7 +163,7 @@ header .container-lista li a:hover{
 /*----------------------------------------------SOBREMIM----------------------------------------------*/
 #sobremim{
     width: 99vw;
-    height: 50vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -173,6 +173,7 @@ header .container-lista li a:hover{
     display: flex;
     flex-direction: row;
     align-items: center;
+    margin: 40px 0;
 }
 #sobremim .sobremim-container img{
     height: 20vh;
@@ -217,7 +218,7 @@ header .container-lista li a:hover{
 /*----------------------------------------------PORTIFOLIO----------------------------------------------*/
 #portifolio{
     width: 99vw;
-    height: 50vh;
+    height: auto;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -226,8 +227,8 @@ header .container-lista li a:hover{
 #portifolio .portifolio-container{
     display: flex;
     flex-direction: row;
-    align-items: center;
-
+    align-items: center;    
+    margin: 40px 0;
 }
 #portifolio .portifolio-container p{
     font-family: 'Fira Code', monospace;
