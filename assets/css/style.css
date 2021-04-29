@@ -524,7 +524,7 @@ footer i:hover{
 }
 @media only screen and (max-width: 285px){
     #inicio{
-        height: 60vh;
+        height: 90vh;
     }
     #sobremim{
         height: auto;
