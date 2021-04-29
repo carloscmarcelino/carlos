@@ -354,7 +354,7 @@ footer i:hover{
 }
 @media only screen and (max-width: 960px){
     #sobremim{
-        height: 55vh;
+        height: auto;
         width: 100vw;
     }
     #sobremim .sobremim-container{
@@ -362,7 +362,7 @@ footer i:hover{
         text-align: center;
         height: 100%;
         width: 100%;
-        padding-top: 5%;
+        padding: 5% 0;
     }
     #sobremim .sobremim-container p{
         text-align: left;
@@ -371,7 +371,7 @@ footer i:hover{
         padding: 0;
         margin: 0;
     }
-    #sobremim .sobremim-container .coments{
+    #sobremim .sobremim-container .coments{         
         width: 100%;
         height: 100%;
         display: flex;
@@ -387,7 +387,7 @@ footer i:hover{
         padding-top: 2%;
     }
     #portifolio{
-        height: 50vh;
+        height: auto;
         width: 100vw;
     }
     #portifolio .portifolio-container{
@@ -395,7 +395,7 @@ footer i:hover{
         text-align: center;
         height: 100%;
         width: 100%;
-        padding-top: 5%;
+        padding: 5% 0;
     }
     #portifolio .portifolio-container p{
         text-align: left;
