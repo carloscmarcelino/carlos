@@ -500,6 +500,12 @@ footer i:hover{
     #portifolio .portifolio-container .coments h2{
         width: 50%;
     }
+    #portifolio img{
+        height: 125px;
+    }
+    #sobremim .sobremim-container img{
+        height: 150px;
+    }
 }
 @media only screen and (max-width: 380px){
     header .container-lista li a{
@@ -525,6 +531,12 @@ footer i:hover{
     }
     #portifolio{
         height: auto;
+    }
+    #portifolio img{
+        height: 100px;
+    }
+    #sobremim .sobremim-container img{
+        height: 125px;
     }
 }
 @media only screen and (max-width: 225px){
