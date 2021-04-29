@@ -37,6 +37,7 @@ html{
     --vermelho: red;
     --branco: #fafafa;
     --preto: black;
+    --roxo-gradient: linear-gradient(#9B30F9, #84e);
 }
 .verde{
     color: var(--verde);
@@ -156,8 +157,7 @@ header .container-lista li a:hover{
 }
 #inicio .inicio-container p, a{
     font-family: 'Fira Code', monospace;
-    font-size: 16px;
-
+    font-size: 17px;
 }
 /*----------------------------------------------INICIO----------------------------------------------*/
 /*----------------------------------------------SOBREMIM----------------------------------------------*/
@@ -190,6 +190,17 @@ header .container-lista li a:hover{
     color: var(--laranja);
     font-size: 25px;
     margin-bottom: 10px;
+}
+#sobremim .sobremim-container .coments a{
+    display: block;
+    padding: 20px 0 0 0;
+}
+#sobremim .sobremim-container .coments button{
+    background: var(--roxo-gradient);
+    color: var(--preto);
+    border-radius: 5px;
+    height: 50px;
+    width: 120px;
 }
 /*----------------------------------------------SOBREMIM----------------------------------------------*/
 /*----------------------------------------------PORTIFOLIO----------------------------------------------*/
@@ -280,7 +291,7 @@ footer{
     align-items: center;
     justify-content: center;
     /*background-color: var(--bg);*/
-    background: linear-gradient(#9B30F9, #84e);
+    background: var(--roxo-gradient);
 }
 footer i{
     font-size: 25px;
@@ -320,6 +331,10 @@ footer i:hover{
     #button-dark-mode{  
         display: none;
     }
+    #sobremim .sobremim-container .coments p{
+        margin: 0;
+        padding: 0;
+    }
 }
 @media only screen and (max-width: 960px){
     #sobremim{
@@ -346,11 +361,11 @@ footer i:hover{
     }
     #sobremim .sobremim-container .coments p{
         width: 70%;
-        height: 100%;
+        height: auto;
     }
     #sobremim .sobremim-container .coments h2{
         width: 50%;
-        padding-top: 5%;
+        padding-top: 2%;
     }
     #portifolio{
         height: 50vh;
@@ -426,8 +441,8 @@ footer i:hover{
     }
     #sobremim .sobremim-container .coments p{
         width: 70%;
-        height: 100%;
-        padding-top: 5%;
+        height: auto;
+        padding-top: 2%;
     }
     #sobremim .sobremim-container .coments h2{
         width: 50%;
