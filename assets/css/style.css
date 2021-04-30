@@ -320,11 +320,6 @@ footer i:hover{
 }
 /*----------------------------------------------FOOTER----------------------------------------------*/
 /*----------------------------------------------MEDIA-QUERY----------------------------------------------*/
-@media only screen and (max-width: 1090px){
-    #skills .container{
-        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-    }
-}
 @media only screen and (max-width: 1000px){
     #inicio{
         text-align: center;
