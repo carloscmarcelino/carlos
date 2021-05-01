@@ -20,6 +20,22 @@
     height: 2px;
   }
 /*----------------------------------------------LOADING-BAR----------------------------------------------*/
+/*----------------------------------------------ANIMATED----------------------------------------------*/
+[data-anime]{
+    opacity: 0;
+    transition: .3s;
+}
+[data-anime="left"]{
+    transform: translate3d(-200px,0,0);
+}
+[data-anime="right"]{
+    transform: translate3d(200px,0,0);
+}
+[data-anime].animate{
+    opacity: 1;
+    transform: translate3d(0px, 0px, 0px);
+}
+/*----------------------------------------------ANIMATED----------------------------------------------*/
 /*----------------------------------------------STANDARD-STYLE----------------------------------------------*/
 *{
     margin: 0;
@@ -98,7 +114,6 @@ header{
     width: 100vw;
     height: 10vh;
     background-color: var(--bg-panel);
-    position: fixed;
 }
 header .container{
     display: flex;
