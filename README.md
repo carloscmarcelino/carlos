@@ -4,4 +4,5 @@ Desenvolvendo meu site
 2.2% mobile
 
 ### anotações
-#### criar efeito, quando passar o mouse em cima das skills fazer alguma transição e mostrar anos em experiencia
+#### criar animação em skills
+#### cria animação nos textos
