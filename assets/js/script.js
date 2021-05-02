@@ -54,7 +54,7 @@ if(target.length){
 /*ANIMATED*/
 
 /*SCROLLBAR*/
-let progress = document.getElementById('progressbar');
+let progress = document.getElementById('scrollbar');
 let totalHeight = document.body.scrollHeight-window.innerHeight;
 window.onscroll=function(){
     let progressHeight = ((window.pageYOffset/totalHeight)*100);
