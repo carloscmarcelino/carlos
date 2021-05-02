@@ -13,8 +13,6 @@ const initialColors = {
 }
 
 const darkMode = {
-    /*bg: "#5909ad",
-    bgPanel: "#7c12ed",*/  /*background: linear-gradient(#9B30F9, #84e);*/
     bg: "#020024",
     bgPanel: "#01000e",
 }

@@ -1,3 +1,4 @@
+/*DEBOUNCE*/
 // Returns a function, that, as long as it continues to be invoked, will not
 // be triggered. The function will be called after it stops being called for
 // N milliseconds. If `immediate` is passed, trigger the function on the
@@ -16,8 +17,9 @@ function debounce(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
+/*DEBOUNCE*/
 
-
+/*HEADERANIMATION*/
 $('header a').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
@@ -28,8 +30,9 @@ $('header a').click(function(e){
             scrollTop: targetOffset - menuHeight
         }, 500);
 });
+/*HEADERANIMATION*/
 
-
+/*ANIMATED*/
 const target = document.querySelectorAll('[data-anime]');
 const animationClass = 'animate';
 function animeScroll(){
@@ -48,10 +51,13 @@ if(target.length){
         animeScroll();
     }, 200));
 }
+/*ANIMATED*/
 
+/*SCROLLBAR*/
 let progress = document.getElementById('progressbar');
 let totalHeight = document.body.scrollHeight-window.innerHeight;
 window.onscroll=function(){
     let progressHeight = ((window.pageYOffset/totalHeight)*100);
     progress.style.height = progressHeight + "%";
 }
+/*SCROLLBAR*/
