@@ -34,28 +34,6 @@ $('header a').click(function(e){
 /*HEADERANIMATION*/
 
 
-/*ANIMATED*/
-const target = document.querySelectorAll('[data-anime]');
-const animationClass = 'animate';
-function animeScroll(){
-    const windowTop = window.pageYOffset +((window.innerHeight*3)/4);
-    target.forEach(function(element){
-        if((windowTop)>element.offsetTop){
-            element.classList.add(animationClass);
-        }else{
-            element.classList.remove(animationClass);
-        }
-    })
-}
-animeScroll();
-if(target.length){
-    window.addEventListener('scroll', debounce(function(){
-        animeScroll();
-    }, 100));
-}
-/*ANIMATED*/
-
-
 /*SCROLLBAR*/
 let progress = document.getElementById('scrollbar');
 let totalHeight = document.body.scrollHeight-window.innerHeight;
@@ -95,13 +73,34 @@ typeWrite(titulo)
 
 
 /*SCROLLREVEAL*/
+/*top*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '50px',
     duration: 2000,
     reset: true
 });
-
 sr.reveal('.titulo-delay',{delay: 200})
 sr.reveal('.cards-interval',{interval: 400})
+/*top*/
+/*left*/
+const srl = ScrollReveal({
+    origin: 'left',
+    distance: '50px',
+    duration: 2000,
+    reset: true
+});
+srl.reveal('.titulo-delayLeft',{delay: 200})
+srl.reveal('.cards-intervalLeft',{interval: 400})
+/*left*/
+/*right*/
+const srr = ScrollReveal({
+    origin: 'right',
+    distance: '50px',
+    duration: 2000,
+    reset: true
+});
+srr.reveal('.titulo-delayRight',{delay: 200})
+srr.reveal('.cards-intervalRight',{interval: 400})
+/*right*/
 /*SCROLLREVEAL*/

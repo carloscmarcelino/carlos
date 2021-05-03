@@ -21,14 +21,14 @@
     <header id="header">
         <div class="container">
             <div class="container-icon">
-                <i class="fas fa-code"></i>
+                <i class="fas fa-code" class="cards-intervalLeft"></i>
             </div>
             <div class="container-lista">
                 <ul>
-                    <li><a href="#sobremim">Sobre mim</a></li>
-                    <li><a href="#portifolio">Portfólio</a></li>
-                    <li><a href="#projetos">Projetos</a></li>
-                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#sobremim" class="cards-interval" >Sobre mim</a></li>
+                    <li><a href="#portifolio" class="cards-interval" >Portfólio</a></li>
+                    <li><a href="#projetos" class="cards-interval" >Projetos</a></li>
+                    <li><a href="#skills" class="cards-interval" >Skills</a></li>
                 </ul>
             </div>
             <div id="button-dark-mode">
@@ -51,31 +51,33 @@
         <!--SOBREMIM-->
         <div id="sobremim">
             <div class="sobremim-container">
-                <img src="assets/img/IMG_20210114_174656_936.jpg" alt="" data-anime="left">
-                <div class="coments" data-anime="left">
-                    <h2>Sobre mim</h2>
-                    <p>
-                        Me chamo Carlos Cesar, moro no Brasil, sou recifense, 
-                        tenho 19 anos e atuo na área de front end desde 2020.
-                    </p>
-                    <p>
-                        Atualmente estou no 3º período de ciência da computação. 
-                    </p>
-                    <p>
-                        Amante de café e gamer nas horas vagas.
-                    </p>
-                    <br>
-                    <p>
-                        Desde pequeno sempre fui envolvido com tecnologia, e como toda criança curiosa ficava o dia inteiro
-                        pesquisando, quando eu percebi estava apaixonado pelas linguagens de programação,
-                        como a máquina se comunicava etc.
-                    </p>
-                    <br>
-                    <p>
-                        E hoje estou aqui, um programador que ama usar seus conhecimentos para resolver problemas lógicos
-                        e que busca diariamente a evolução.
-                    </p>
-                    <a href="assets/cv/CV.pdf" target="_blank"><button><i class="fas fa-cloud-download-alt"></i><h3>Curriculo</h3></button></a>
+                <img src="assets/img/IMG_20210114_174656_936.jpg" alt="" class="cards-intervalLeft">
+                <div class="coments">
+                    <h2 class="titulo-delay">Sobre mim</h2>
+                    <div class="cards-intervalRight">
+                        <p>
+                            Me chamo Carlos Cesar, moro no Brasil, sou recifense, 
+                            tenho 19 anos e atuo na área de front end desde 2020.
+                        </p>
+                        <p>
+                            Atualmente estou no 3º período de ciência da computação. 
+                        </p>
+                        <p>
+                            Amante de café e gamer nas horas vagas.
+                        </p>
+                        <br>
+                        <p>
+                            Desde pequeno sempre fui envolvido com tecnologia, e como toda criança curiosa ficava o dia inteiro
+                            pesquisando, quando eu percebi estava apaixonado pelas linguagens de programação,
+                            como a máquina se comunicava etc.
+                        </p>
+                        <br>
+                        <p>
+                            E hoje estou aqui, um programador que ama usar seus conhecimentos para resolver problemas lógicos
+                            e que busca diariamente a evolução.
+                        </p>
+                    </div>
+                    <a href="assets/cv/CV.pdf" target="_blank" class="titulo-delay"><button><i class="fas fa-cloud-download-alt"></i><h3>Curriculo</h3></button></a>
                 </div>
             </div>
         </div>
@@ -83,12 +85,14 @@
         <!--PORTIFOLIO-->
         <div id="portifolio">
             <div class="portifolio-container">
-                <a href="https://github.com/carloscmarcelino?tab=repositories" data-anime="left" target="_blank"> <img src="assets/img/github.png" alt=""> </a>
-                <div class="coments" data-anime="left">
-                    <h2>Portfólio</h2>
-                    <p>É no github onde eu posto todos os meus projetos desde o inicio da minha jornada.</p>
-                    <br>
-                    <p>Em meus repositórios tenho vários códigos, atividades e projetos em andamento.</p>
+                <a href="https://github.com/carloscmarcelino?tab=repositories" target="_blank" class="cards-intervalLeft"> <img src="assets/img/github.png" alt=""> </a>
+                <div class="coments">
+                    <h2 class="titulo-delay">Portfólio</h2>
+                    <div class="cards-intervalRight">
+                        <p>É no github onde eu posto todos os meus projetos desde o inicio da minha jornada.</p>
+                        <br>
+                        <p>Em meus repositórios tenho vários códigos, atividades e projetos em andamento.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -167,7 +171,7 @@
 <!--MAIN-->
 <!--FOOTER-->
     <footer>
-        <div>
+        <div class="cards-interval">
             <a href="https://github.com/carloscmarcelino" target="_blank"><i class="fab fa-github"></i></a>
             <a href="http://instagram.com/carloscmarcelino" target="_blank"><i class="fab fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/carlos-marcelino-3829a2202/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
