@@ -1,10 +1,8 @@
-/*--------------------------------------------------------------------------------------------*/
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     list-style-type: none;
-    color: var(--branco);
     text-decoration: none;
 }
 html{
@@ -29,8 +27,6 @@ html{
 body{
     background: var(--bg);
 }
-/*--------------------------------------------------------------------------------------------*/
-/*----------------------------------------------HEADER----------------------------------------------*/
 header{
     width: 100vw;
     height: 10vh;
@@ -49,6 +45,7 @@ header .container-icon{
 }
 header .container-icon i{
     font-size: 5vh;
+    color: var(--branco);
 }
 header .container-lista ul {
     height: 10vh;
@@ -67,8 +64,6 @@ header .container-lista li a:hover{
     color: var(--branco);
     border-bottom: 1px solid var(--laranja);
 }
-/*----------------------------------------------HEADER----------------------------------------------*/
-/*----------------------------------------------INICIO----------------------------------------------*/
 #inicio{
     height: 90vh;
     width: 100vw;
@@ -83,11 +78,13 @@ header .container-lista li a:hover{
 #inicio .inicio-container h2{
     font-family: 'Fira Code', monospace;
     font-size: 26px;
+    color: var(--branco);
 }
 #inicio .inicio-container h1{
     font-family: 'Fira Code', monospace;
     font-size: 30px;
     padding: 5px 0;
+    color: var(--branco);
 }
 #inicio .inicio-container h1::after{
     content: '|';
@@ -107,8 +104,6 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     font-size: 18px;
 }
-/*----------------------------------------------INICIO----------------------------------------------*/
-/*----------------------------------------------SOBREMIM----------------------------------------------*/
 #sobremim{
     width: 100vw;
     height: auto;
@@ -133,6 +128,7 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
     width: 25vw;
+    color: var(--branco);
 }
 #sobremim .sobremim-container .coments h2{
     font-family: 'Fira Code', monospace;
@@ -158,12 +154,12 @@ header .container-lista li a:hover{
 #sobremim .sobremim-container .coments h3{
     font-size: 16px;
     font-family: 'Fira Code', monospace; 
+    color: var(--branco);
 }
 #sobremim .sobremim-container .coments i{
     margin: 0 5px;
+    color: var(--branco);
 }
-/*----------------------------------------------SOBREMIM----------------------------------------------*/
-/*----------------------------------------------PORTIFOLIO----------------------------------------------*/
 #portifolio{
     width: 100vw;
     height: auto;
@@ -183,6 +179,7 @@ header .container-lista li a:hover{
     font-size: 16px;
     width: 25vw;
     width: 25vw;
+    color: var(--branco);
 }
 #portifolio .portifolio-container a{
     border-radius: 100%;
@@ -198,8 +195,6 @@ header .container-lista li a:hover{
     font-size: 25px;
     margin-bottom: 10px;
 }
-/*----------------------------------------------PORTIFOLIO----------------------------------------------*/
-/*----------------------------------------------PROJETOS----------------------------------------------*/
 #projetos{
     width: 100vw;
     height: 75%;
@@ -223,7 +218,7 @@ header .container-lista li a:hover{
     justify-content: center;
     display: grid;
     grid-gap: 30px 40px;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 }
 #projetos .container .card{
     height:  150px;
@@ -246,9 +241,8 @@ header .container-lista li a:hover{
 }
 #projetos .container p{
     font-size: 20px;
+    color: var(--branco);
 }
-/*----------------------------------------------PROJETOS----------------------------------------------*/
-/*----------------------------------------------SKILLS----------------------------------------------*/
 #skills{
     width: 100vw;
     height: 75%;
@@ -266,12 +260,12 @@ header .container-lista li a:hover{
     text-align: center;
 }
 #skills .container{
-    width: 90vw;
+    width: 80vw;
     padding: 30px 0;
     justify-items: center;
     justify-content: center;
     display: grid;
-    grid-gap: 30px 40px;
+    grid-gap: 30px 0px;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
 }
 #skills .container .card{
@@ -288,6 +282,12 @@ header .container-lista li a:hover{
     border:1px solid var(--laranja);
     border-radius: 10px;
 }
+.htmlcss{
+    height: 80%;
+}
+.htmlcss i{
+    padding: 0 5px;
+}
 #skills .container .card i{
     color: var(--laranja);
     height: 80%;
@@ -297,58 +297,8 @@ header .container-lista li a:hover{
     font-size: 16px;
     display: flex;
     text-align: center;
+    color: var(--branco);
 }
-/*----------------------------------------------SKILLS----------------------------------------------*/
-/*----------------------------------------------SERVICOS----------------------------------------------*/
-#servicos{
-    width: 100vw;
-    height: 75%;
-    background-color: var(--bg-panel);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-#servicos h2{
-    margin: 3vh 0 0 0;
-    font-family: 'Fira Code', monospace;
-    font-size: 25px;
-    color: var(--laranja);
-    text-align: center;
-}
-#servicos .container{
-    width: 90vw;
-    padding: 30px 0;
-    justify-items: center;
-    justify-content: center;
-    display: grid;
-    grid-gap: 30px 40px;
-    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
-}
-#servicos .container .card{
-    height:  150px;
-    width: 250px;
-    background-color: var(--bg);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-}
-#servicos .container .card:hover{
-    border:1px solid var(--laranja);
-    border-radius: 10px;
-}
-#servicos .container .card i{
-    color: var(--laranja);
-    height: 80%;
-    font-size: 50px;
-}
-#servicos .container p{
-    font-size: 20px;
-}
-/*----------------------------------------------SERVICOS----------------------------------------------*/
-/*----------------------------------------------FOOTER----------------------------------------------*/
 footer{
     width: 100vw;
     height: 15vh;
@@ -361,6 +311,7 @@ footer i{
     font-size: 25px;
     margin: 10px 20px;
     position: relative;
+    color: var(--branco);
 }
 footer i:hover{
     color: var(--laranja);
@@ -368,4 +319,3 @@ footer i:hover{
 #return i{
     color: var(--laranja);
 }
-/*----------------------------------------------FOOTER----------------------------------------------*/
