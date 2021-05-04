@@ -28,7 +28,7 @@ $('header a').click(function(e){
         targetOffset = $(id).offset().top;
 
         $('html,body').animate({
-            scrollTop: targetOffset - menuHeight
+            scrollTop: targetOffset
         }, 500);
 });
 /*HEADERANIMATION*/

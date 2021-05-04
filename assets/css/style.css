@@ -211,10 +211,16 @@ header .container-lista li a:hover{
     align-items: center;
     justify-content: center;
 }
-#projetos h2{
-    margin: 3vh 0 0 0;
+#projetos h1{
+    margin-bottom: 1vh;
     font-family: 'Fira Code', monospace;
     font-size: 25px;
+    color: var(--laranja);
+    text-align: center;
+}
+#projetos h2{
+    font-family: 'Fira Code', monospace;
+    font-size: 16px;
     color: var(--laranja);
     text-align: center;
 }
@@ -228,7 +234,8 @@ header .container-lista li a:hover{
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 }
 #projetos .container .card{
-    height:  150px;
+    height:  auto;
+    min-height: 150px;
     width: 250px;
     background-color: var(--bg);
     display: flex;
@@ -241,14 +248,26 @@ header .container-lista li a:hover{
     border:1px solid var(--laranja);
     border-radius: 10px;
 }
-#projetos .container .card i{
-    color: var(--laranja);
-    height: 80%;
-    font-size: 50px;
-}
-#projetos .container p{
-    font-size: 20px;
+#projetos-card .card p{
+    font-size: 13px;
+    text-align: center;
     color: var(--branco);
+    margin-bottom: 1vh;
+    margin: 5px;
+}
+#projetos-card .card ul{
+    display: flex;
+    flex-direction: row;
+}
+#projetos-card .card ul li{
+    border: 1px solid #9B30F9;
+    background: var(--roxo-gradient);
+    color: var(--branco);
+    border-radius: 5px;
+    font-size: 13px;
+    width: auto;
+    height: 20px;
+    text-align: center;
 }
 /*------------------------------------------------------------------------------------------------------------*/
 #skills{
