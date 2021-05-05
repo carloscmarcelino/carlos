@@ -135,7 +135,6 @@ header .container-lista li a:hover{
     line-height: 24px;
     width: 30vw;
     color: var(--branco);
-    border: 1px solid red;
 }
 #sobremim .sobremim-container .coments h2{
     font-family: 'Fira Code', monospace;
