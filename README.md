@@ -7,3 +7,4 @@ Desenvolvendo meu site
 #### fazer um site brightness mode
 #### remover o logo ```</>```
 #### adicionar serif
+### 24px, 18px, 14px;
