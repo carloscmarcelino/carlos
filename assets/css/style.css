@@ -132,6 +132,7 @@ header .container-lista li a:hover{
 #sobremim .sobremim-container p{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
+    line-height: 24px;
     width: 25vw;
     color: var(--branco);
 }
@@ -183,6 +184,7 @@ header .container-lista li a:hover{
 #portifolio .portifolio-container p{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
+    line-height: 24px;
     width: 25vw;
     width: 25vw;
     color: var(--branco);
@@ -249,7 +251,8 @@ header .container-lista li a:hover{
     border-radius: 10px;
 }
 #projetos-card .card p{
-    font-size: 13px;
+    font-size: 14px;
+    line-height: 21px;
     text-align: center;
     color: var(--branco);
     margin-bottom: 1vh;
