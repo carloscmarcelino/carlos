@@ -1,3 +1,4 @@
+/*-Standard-*/
 *{
     margin: 0;
     padding: 0;
@@ -16,7 +17,7 @@ html{
 body{
     background: var(--bg);
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-Header-*/
 header{
     width: 100vw;
     height: 10vh;
@@ -40,10 +41,9 @@ header .container-lista li a{
     color: var(--laranja);
 }
 header .container-lista li a:hover{
-    color: var(--branco);
     border-bottom: 1px solid var(--laranja);
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-Inicio-*/
 #inicio{
     height: 90vh;
     width: 100vw;
@@ -87,7 +87,7 @@ header .container-lista li a:hover{
 .laranja{
     color: var(--laranja);
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-Sobre-mim-*/
 #sobremim{
     width: 100vw;
     height: auto;
@@ -123,11 +123,13 @@ header .container-lista li a:hover{
 }
 #sobremim .sobremim-container .coments a{
     display: block;
-    padding: 20px 0 0 0;
+    width: 120px;
+    margin: 20px 0 0 0;
 }
 #sobremim .sobremim-container .coments a button{
     animation: scaledown .1s linear;
     animation-fill-mode: forwards;
+    cursor: pointer;
 }
 #sobremim .sobremim-container .coments a button:hover{
     animation: scale 0.1s linear;
@@ -153,7 +155,7 @@ header .container-lista li a:hover{
     margin: 0 5px;
     color: var(--branco);
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-Portfolio-*/
 #portifolio{
     width: 100vw;
     height: auto;
@@ -194,7 +196,7 @@ header .container-lista li a:hover{
     color: var(--verde);
     font-size: 16px;
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-Projetos-*/
 #projetos{
     width: 100vw;
     height: 75%;
@@ -239,7 +241,7 @@ header .container-lista li a:hover{
     animation-fill-mode: forwards;
 }
 #projetos .container .card:hover{
-    animation: scale 0.1s linear;
+    animation: scale .1s linear;
     animation-fill-mode: forwards;
 }
 @keyframes scaledown{
@@ -283,7 +285,7 @@ header .container-lista li a:hover{
     text-align: center;
     margin: 0 5px;
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-Skills-*/
 #skills{
     width: 100vw;
     height: 75%;
@@ -342,7 +344,7 @@ header .container-lista li a:hover{
     text-align: center;
     color: var(--branco);
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-Footer-*/
 footer{
     width: 100vw;
     height: 15vh;
@@ -363,4 +365,4 @@ footer i:hover{
 #return i{
     color: var(--laranja);
 }
-/*------------------------------------------------------------------------------------------------------------*/
+/*-End-*/

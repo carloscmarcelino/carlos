@@ -1,4 +1,4 @@
-/*DEBOUNCE*/
+/*Debounce*/
 // Returns a function, that, as long as it continues to be invoked, will not
 // be triggered. The function will be called after it stops being called for
 // N milliseconds. If `immediate` is passed, trigger the function on the
@@ -17,10 +17,9 @@ function debounce(func, wait, immediate) {
 		if (callNow) func.apply(context, args);
 	};
 };
-/*DEBOUNCE*/
 
 
-/*HEADERANIMATION*/
+/*Header-animation*/
 $('header a').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
@@ -31,20 +30,19 @@ $('header a').click(function(e){
             scrollTop: targetOffset
         }, 500);
 });
-/*HEADERANIMATION*/
 
 
-/*SCROLLBAR*/
+/*Scroll-bar*/
 let progress = document.getElementById('scrollbar');
 let totalHeight = document.body.scrollHeight-window.innerHeight;
 window.onscroll=function(){
     let progressHeight = ((window.pageYOffset/totalHeight)*100);
     progress.style.height = progressHeight + "%";
 }
-/*SCROLLBAR*/
 
 
-/*RETURN*/
+
+/*Return*/
 $('#return').click(function(e){
     e.preventDefault();
     var id = $(this).attr('href'),
@@ -55,10 +53,10 @@ $('#return').click(function(e){
             scrollTop: targetOffset - menuHeight
         }, 500);
 });
-/*RETURN*/
 
 
-/*TEXT-EFFECT*/
+
+/*Text-effect*/
 function typeWrite(elemento){
     const textoArray = elemento.innerHTML.split('');
     elemento.innerHTML = '';
@@ -69,11 +67,10 @@ function typeWrite(elemento){
 }
 const titulo = document.querySelector('#inicio h1');
 typeWrite(titulo)
-/*TEXT-EFFECT*/
 
 
-/*SCROLLREVEAL*/
-/*top*/
+/*Scroll-reveal*/
+/*Top*/
 const sr = ScrollReveal({
     origin: 'top',
     distance: '50px',
@@ -82,8 +79,7 @@ const sr = ScrollReveal({
 });
 sr.reveal('.titulo-delay',{delay: 200})
 sr.reveal('.cards-interval',{interval: 400})
-/*top*/
-/*left*/
+/*Left*/
 const srl = ScrollReveal({
     origin: 'left',
     distance: '50px',
@@ -92,5 +88,3 @@ const srl = ScrollReveal({
 });
 srl.reveal('.titulo-delayLeft',{delay: 200})
 srl.reveal('.cards-intervalLeft',{interval: 400})
-/*left*/
-/*SCROLLREVEAL*/
