@@ -65,24 +65,16 @@
         padding-top: 2%;
     }
 }
-/*620px*/
-@media only screen and (max-width: 620px){
+/*630px*/
+@media only screen and (max-width: 630px){
     header .container-lista li a{
-        padding: 0 10px;
-    }
-
-}
-/*590px*/
-@media only screen and (max-width: 590px){
-    header .container-lista li a{
-        padding: 0 5px;
         font-size: 0.8em;
     }
 }
-/*480px*/
-@media only screen and (max-width: 480px){
+/*560px*/
+@media only screen and (max-width: 560px){
     header .container-lista li a{
-        font-size: 0.7em;
+        font-size: 0.6em;
     }
 }
 /*-460px-*/
@@ -97,17 +89,16 @@
         height: 150px;
     }
 }
-/*430px*/
-@media only screen and (max-width: 430px){
+/*420px*/
+@media only screen and (max-width: 420px){
     header .container-lista li a{
-        font-size: 0.6em;
+        font-size: 0.5em;
     }
 }
-/*390px*/
-@media only screen and (max-width: 390px){
+/*350px*/
+@media only screen and (max-width: 350px){
     header .container-lista li a{
-        padding: 0 2.5px;
-        font-size: 0.5em;
+        font-size: 0.4em;
     }
 }
 /*330px*/
@@ -118,21 +109,18 @@
 }
 /*311px*/
 @media only screen and (max-width: 311px){
-    header .container-lista li a{
-        font-size: 0.5em;
-    }
     #projetos .container .card{
         width: 200px;
     }
-}
-@media only screen and (max-width: 295px){
-    header .container-lista li a{
-        padding: 0 2px;
-        font-size: 0.4em;
+    #projetos-card .card ul li{
+        min-width: auto;
     }
 }
 /*285px*/
 @media only screen and (max-width: 285px){
+    header .container-lista li a{
+        font-size: 0.3em;
+    }
     #portifolio img{
         height: 100px;
     }
