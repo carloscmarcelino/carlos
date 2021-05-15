@@ -9,7 +9,8 @@ function getScrollTopByHref(element){
 }
 function scrollToIdOnClick(event){
     event.preventDefault()
-    const to = getScrollTopByHref(event.target)
+    menuHeight = $('header').innerHeight()
+    const to = getScrollTopByHref(event.target) - menuHeight
     scrollToPosition(to)
 }
 function scrollToPosition(to){
@@ -18,7 +19,6 @@ function scrollToPosition(to){
         behavior: "smooth",
     })
 }
-
 
 /*Menu-mobile*/
 const btnMobile = document.querySelector('#btn-mobile')
