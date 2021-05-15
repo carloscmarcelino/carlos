@@ -389,6 +389,14 @@ header .container-lista li a:hover{
     font-family: 'Fira Code', monospace;
     line-height: calc(14px*2);
 }
+#contato .container p{
+    height: auto;
+    width: auto;
+    text-align: center;
+    color: var(--branco);
+    font-family: 'Fira Code', monospace;
+    font-size: 14px;
+}
 /*-Footer-*/
 footer{
     width: 100vw;
