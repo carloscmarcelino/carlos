@@ -103,19 +103,20 @@
         font-size: 0.6em;
     }
 }
-/*370px*/
-@media only screen and (max-width: 370px){
+/*390px*/
+@media only screen and (max-width: 390px){
     header .container-lista li a{
+        padding: 0 2.5px;
         font-size: 0.5em;
     }
 }
-/*-330px-*/
+/*330px*/
 @media only screen and (max-width: 330px){
     footer i{
         margin: 10px 20px;
     }
 }
-/*-311px-*/
+/*311px*/
 @media only screen and (max-width: 311px){
     header .container-lista li a{
         font-size: 0.5em;
@@ -124,7 +125,13 @@
         width: 200px;
     }
 }
-/*-285px-*/
+@media only screen and (max-width: 295px){
+    header .container-lista li a{
+        padding: 0 2px;
+        font-size: 0.4em;
+    }
+}
+/*285px*/
 @media only screen and (max-width: 285px){
     #portifolio img{
         height: 100px;
@@ -133,4 +140,3 @@
         height: 125px;
     }
 }
-/*-End-*/

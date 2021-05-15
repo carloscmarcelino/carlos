@@ -353,12 +353,15 @@ header .container-lista li a:hover{
 }
 /*Contato*/
 #contato{
-    height: 35vh;
+    min-height: 50vh;
+    height: auto;
     width: 100vw;
     background: var(--bg-panel);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 #contato .container{
-    height: 35vh;
     width: auto;
     display: flex;
     align-items: center;
@@ -366,9 +369,9 @@ header .container-lista li a:hover{
     flex-direction: column;
 }
 #contato span{
-    width: 6vw;
+    width: 30%;
     border-bottom: 0.1em solid var(--branco);
-    margin: 25px 0;
+    margin: 30px 0;
 }
 #contato .container h2{
     color: var(--branco);
@@ -378,7 +381,7 @@ header .container-lista li a:hover{
     font-weight: normal;
 }
 #contato ul{
-    margin: 10px 0;
+    margin: 30px 0;
     display: flex;
     flex-direction: column;
 }
@@ -391,11 +394,12 @@ header .container-lista li a:hover{
 }
 #contato .container p{
     height: auto;
-    width: auto;
+    width: 90vw;
     text-align: center;
     color: var(--branco);
     font-family: 'Fira Code', monospace;
     font-size: 14px;
+    margin: 30px 0;
 }
 /*-Footer-*/
 footer{
