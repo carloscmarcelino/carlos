@@ -22,6 +22,8 @@ header{
     width: 100vw;
     height: 10vh;
     background-color: var(--bg-panel);
+    position: fixed;
+    z-index: 9999;
 }
 header .container{
     display: flex;
@@ -44,7 +46,7 @@ header .container-lista li a:hover{
 }
 /*-Inicio-*/
 #inicio{
-    height: 90vh;
+    height: 100vh;
     width: 100vw;
     display: flex;
     align-items: center;

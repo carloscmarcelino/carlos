@@ -25,7 +25,6 @@ $('header a').click(function(e){
     var id = $(this).attr('href'),
         menuHeight = $('header').innerHeight(),
         targetOffset = $(id).offset().top;
-
         $('html,body').animate({
             scrollTop: targetOffset
         }, 500);
@@ -88,3 +87,11 @@ const srl = ScrollReveal({
 });
 srl.reveal('.titulo-delayLeft',{delay: 200})
 srl.reveal('.cards-intervalLeft',{interval: 400})
+/*No-reset*/
+const srNR = ScrollReveal({
+    origin: 'top',
+    distance: '50px',
+    duration: 2000,
+    reset: false
+});
+sr.reveal('.cards-intervalNR',{interval: 400})
