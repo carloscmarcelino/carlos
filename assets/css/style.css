@@ -6,7 +6,7 @@
     list-style-type: none;
     text-decoration: none;
 }
-html{
+:root{
     --bg: #282A2D;
     --bg-panel: #1B1D20;
     --laranja: #eb7a55;
@@ -380,4 +380,3 @@ footer i:hover{
 #return i{
     color: var(--laranja);
 }
-/*-End-*/
