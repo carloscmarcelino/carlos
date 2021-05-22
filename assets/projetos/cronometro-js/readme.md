@@ -1,1 +1,0 @@
-### Um cronometro utilizando js
