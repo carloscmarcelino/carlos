@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
     <!--Descrição-->
     <title>Nery Tatoo</title>
-    <link rel="shortcut icon" href="">
+    <link rel="shortcut icon" href="assets/img/tatoo-icon.png">
 	<meta property="og:title" content="Nery Tatoo"/>
     <meta name="description" content="">
 	<meta property="og:type" content="website"/>
@@ -28,32 +28,32 @@
     <div id="scrollbar"></div>
     <header id="header"> <!--Header-->
         <ul>
-            <li>
+            <li class="cards-intervalLeft">
                 <a href="#sobre">Home</a>
             </li>
-            <li>
+            <li class="cards-intervalLeft">
                 <a href="#abbout">Sobre</a>
             </li>
-            <li>
+            <li class="cards-intervalLeft">
                 <a href="#trabalhos">Trabalhos</a>
             </li>
-            <li>
+            <li class="cards-intervalLeft">
                 <a href="#contato">Contatos</a>
             </li>
         </ul>
     </header> <!--Header-->
     <main>
         <div id="sobre"><!--Sobre-->
-            <div class="container">
+            <div class="container titulo-delayLeft">
                 <img src="assets/img/bg.svg" alt="">
             </div>
         </div><!--Sobre-->
         <div id="abbout"><!--Abbout-->
             <div class="container">
-                <div class="img">
+                <div class="img cards-intervalLeft">
                     <img src="assets/img/abbout.jpg" alt="">
                 </div>
-                <div class="text">
+                <div class="text cards-intervalLeft">
                     <h2>Quem sou</h2>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, commodi delectus placeat doloribus laudantium iure quo rerum vel illum magni porro est itaque quia asperiores necessitatibus tempora officiis consequatur dolorum?</p>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus inventore deserunt est dicta placeat odit assumenda quod corporis quis nesciunt, consectetur nulla! Quod doloremque, nulla autem consequuntur atque eveniet! Beatae?</p>
@@ -67,8 +67,8 @@
         </div><!--Abbout-->
         <div id="trabalhos"> <!--Trabalhos-->
             <div class="container">
-                <h2>Trabalhos</h2>
-                <div class="slide-wrapper">
+                <h2 class="cards-intervalLeft">Trabalhos</h2>
+                <div class="slide-wrapper cards-intervalLeft">
                     <ul class="slide">
                         <li><img src="assets/img/tt1.jpg" alt=""></li>
                         <li><img src="assets/img/tt2.jpg" alt=""></li>
@@ -89,12 +89,12 @@
         </div> <!--Trabalhos-->
         <div id="contato"> <!--Contato-->
             <div class="container">
-                <div class="orcamento">
+                <div class="orcamento cards-intervalLeft">
                     <h2>Orçamento</h2>
                     <p>Diretamente pelo Whatsapp ou Instagram.</p>
                 </div>
-                <div class="li">
-                    <div class="li-container">
+                <div class="li cards-intervalLeft">
+                    <div class="li-container" style="margin-left: 500px;">
                         <h2>Redes sociais</h2>
                         <ul>
                             <li>
@@ -109,13 +109,18 @@
                             </li>
                         </ul>
                     </div>
-                    <div class="li-container">
+                    <div class="li-container" style="margin-right: 500px;">
                         <h2>Endereço</h2>
                         <ul>
-                            <li>candeias nº 5000</li>
-                            <li>Recife - PE</li>
+                            <li>R. Rondinha, 15 - Barra de Jangada</li>
+                            <li>Jaboatão dos Guararapes - PE</li>
                         </ul>
                     </div>
+                </div>
+                <div class="map cards-intervalLeft">
+                    <a href="https://www.google.com/maps/place/Mafia+Barbearia+e+Studio+Ink/@-8.2218257,-34.9337219,15z/data=!4m2!3m1!1s0x0:0x7da0f7cfcd18f177?sa=X&ved=2ahUKEwjptZ7h1IbxAhU3pZUCHT6-AN4Q_BIwG3oECD0QAw" target="_blank">
+                        <img src="assets/img/mapa.png" alt="mapa">
+                    </a>
                 </div>
             </div>
         </div> <!--Contato-->
@@ -125,6 +130,8 @@
     </main>
     <!--jQuery-->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <!--ScrollReveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
     <!--Script-->
     <script type="module" src="assets/js/script.js"></script>
     <!--LoadingBar-->

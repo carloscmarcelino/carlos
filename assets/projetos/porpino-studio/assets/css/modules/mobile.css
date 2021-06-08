@@ -69,7 +69,7 @@
         overflow-y: hidden;
     }
     .menu.active ul{
-        height: calc(100vh - 70px);
+        height: calc(20vh - 70px);
         visibility: visible;
         overflow-y: auto;
     }
