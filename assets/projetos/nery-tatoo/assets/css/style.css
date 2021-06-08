@@ -6,4 +6,6 @@
 @import 'modules/trabalhos.css';
 @import 'modules/contato.css';
 @import 'modules/footer.css';
-@import 'modules/pace.css'
+@import 'modules/pace.css';
+
+@import 'modules/mobile.css';
