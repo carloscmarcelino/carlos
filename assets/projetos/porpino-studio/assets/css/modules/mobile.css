@@ -32,7 +32,7 @@
         width: 450px;
     }
     main .parallax{
-        background: url(../img/bg2.jpg)no-repeat fixed center;
+        background: url(../../img/bg2.jpg)no-repeat fixed center;
     }
 }
 /*460px*/
