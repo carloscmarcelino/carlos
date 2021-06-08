@@ -14,4 +14,4 @@ import scrollTop from './modules/scrollTop.js';
 scrollTop();
 
 import debounce from './modules/debounce.js';
-debounce(func, wait, immediate);
+debounce();
