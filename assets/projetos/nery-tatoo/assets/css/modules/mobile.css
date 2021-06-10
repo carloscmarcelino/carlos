@@ -1,3 +1,15 @@
+/*1300*/
+@media only screen and (max-width: 1300px){
+    #contato .li{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #contato .li .li-container+.li-container{
+        border-left: none;
+        margin-top: 40px;
+    }
+}
 /*1100*/
 @media only screen and (max-width: 1100px){
     #sobre{
@@ -31,6 +43,12 @@
     #abbout .img img{
         height: 500px;
         width: 400px;
+    }
+    #abbout .text{
+        width: 100%;
+    }
+    #abbout .img{{
+        width: 100%;
     }
 }
 /*450*/
