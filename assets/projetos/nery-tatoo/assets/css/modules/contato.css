@@ -28,15 +28,12 @@
     margin: 50px 0 0 0;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
 }
 #contato .li .li-container{   
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-#contato .li .li-container+.li-container{
-    border-left: 1px solid rgba(0,0,0,.5);
 }
 #contato .li .li-container h2{
     font-family: 'Rubik', sans-serif;
