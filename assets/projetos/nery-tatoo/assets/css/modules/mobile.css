@@ -56,12 +56,3 @@
         width: 95%;
     }
 }
-/*450*/
-@media only screen and (max-width: 450px){
-    header li + li{
-        padding-left: 30px;
-    }
-    header a{
-        font-size: 16px;
-    }
-}
