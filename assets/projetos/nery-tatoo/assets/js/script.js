@@ -8,3 +8,7 @@ slide.activePrevSlide();
 /*Header-animation*/
 import Header from './modules/header.js'
 Header()
+
+/*menuMobile*/
+import menuMobile from './modules/menuMobile.js';
+menuMobile();

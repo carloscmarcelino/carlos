@@ -3,8 +3,14 @@ header{
     height: 10vh;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     background: #1a1a1a;
+}
+header h2{
+    color: #fff;
+    letter-spacing: 5px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
 }
 header ul{
     display: flex;
@@ -14,9 +20,9 @@ header li + li{
 }
 header a{
     color: #fff;
-    font-size: 18px;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 300;
     position: relative;
 }
 header a::after{
@@ -33,4 +39,7 @@ header a::after{
 }
 header a:hover::after{
     transform: scale(1,1);
+}
+#btn-mobile{
+    display: none;
 }
