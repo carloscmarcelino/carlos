@@ -3,6 +3,10 @@ falando um pouco sobre minhas habilidades, alguns projetos etc.</h2>
 
 ![](https://pics.prcm.jp/pib1303698102/6570655/gif/6570655.gif)
 
+<h3 style="color: #eb7a55;">Linguagens utilizadas:</h3>
+
+![](https://img.shields.io/badge/-Javascript-F0DB4F?style=for-the-badge&labelColor=black&logo=javascript&logoColor=F0DB4F)
+
 <h2 style="color: #eb7a55;">Versão desktop</h2>
 
 <h3 style="color: #eb7a55;">Home</h3>
