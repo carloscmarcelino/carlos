@@ -3,7 +3,7 @@ falando um pouco sobre minhas habilidades, alguns projetos etc.</h2>
 
 ![](https://pics.prcm.jp/pib1303698102/6570655/gif/6570655.gif)
 
-<h2 style="color: #eb7a55;">Versão deskptop</h2>
+<h2 style="color: #eb7a55;">Versão desktop</h2>
 
 <h3 style="color: #eb7a55;">Home</h3>
 <img src="assets/img/md/1.png">
