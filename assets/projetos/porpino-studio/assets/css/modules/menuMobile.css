@@ -9,7 +9,7 @@
     header ul{
         display: block;
         position: absolute;
-        width: 100%;
+        width: 50%;
         top: 45px;
         right: 0px;
         background: var(--cinza);
