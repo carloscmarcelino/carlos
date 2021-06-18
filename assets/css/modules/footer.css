@@ -11,6 +11,7 @@ footer i{
     margin: 10px 20px;
     position: relative;
     color: var(--branco);
+    transition: .3s;
 }
 footer i:hover{
     color: var(--laranja);
