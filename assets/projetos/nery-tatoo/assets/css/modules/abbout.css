@@ -77,9 +77,10 @@
     font-weight: 400;
     font-size: 14px;
     padding: 0 10px;
-    border-top: 1px solid rgba(0,0,0,.1);
-    border-bottom: 1px solid rgba(0,0,0,.1);
     padding: 20px 0;
+}
+#abbout .text li + li {
+    border-top: 1px solid rgba(0, 0, 0,.2);
 }
 #abbout .text li span.circle{
     background: #000;
