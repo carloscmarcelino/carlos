@@ -1,4 +1,4 @@
-<h2 style="color: #eb7a55;">Feito carinhosamente feito por mim. espero que goste 😁</h2>
+<h2 style="color: #eb7a55;">Meu site portfólio, feito carinhosamente por mim.</h2>
 
 ![](https://pics.prcm.jp/pib1303698102/6570655/gif/6570655.gif)
 
