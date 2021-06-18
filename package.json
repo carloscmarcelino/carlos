@@ -1,0 +1,24 @@
+{
+  "name": "carlos",
+  "version": "1.0.0",
+  "description": "<h2 style=\"color: #eb7a55;\">Um site carinhosamente feito por mim.\r falando um pouco sobre minhas habilidades, alguns projetos etc.</h2>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/carloscmarcelino/carlos.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/carloscmarcelino/carlos/issues"
+  },
+  "homepage": "https://github.com/carloscmarcelino/carlos#readme",
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4"
+  }
+}
