@@ -1,36 +1,25 @@
 #contato{
     height: auto;
-    width: 100vw;
+    width: 100%;
     background: var(--bg);
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 #contato .container{
-    width: auto;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     padding: 50px 0;
 }
-#contato .container .t1{
-    width: auto;
-    border-top: 1px solid rgba(255,255,255,.5);
-    border-bottom: 1px solid rgba(255,255,255,.5);
-    margin: 50px;
-}
-#contato .container .t1 h2{
+#contato .container h2{
     color: var(--branco);
     font-size: 18px;
     font-family: 'Fira Code', monospace;
     letter-spacing: 1px;
     font-weight: normal;
-    margin-top: 30px;
-    text-align: center;
+    margin-bottom: 10px;
 }
 #contato ul{
-    margin: 30px 0;
     display: flex;
     flex-direction: column;
 }
@@ -42,24 +31,3 @@
     line-height: calc(14px*2);
     letter-spacing: 1px;
 }
-/*
-#contato .t2{
-    margin: 50px 0;
-}
-#contato .container .t2 p{
-    height: auto;
-    width: 90vw;
-    text-align: center;
-    color: var(--branco);
-    font-family: 'Fira Code', monospace;
-    font-size: 14px;
-    margin: 40px 0;
-}
-#contato .t2 p.p-italic{
-    font-family: 'Times New Roman';
-    font-weight: 300;
-    font-style: italic; 
-    letter-spacing: 2px;
-    font-size: 14px;
-}
-*/
