@@ -1,16 +1,15 @@
 #sobremim{
     width: 100vw;
     height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: var(--bg-panel);
 }
 #sobremim .sobremim-container{
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: 100px 0;
+    justify-content: center;
+    width: 100%;
+    padding: 100px 0;
 }
 #sobremim .sobremim-container img{
     height: 20vh;

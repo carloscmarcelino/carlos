@@ -7,19 +7,11 @@
         padding: 0;
         margin: 0;
     }
-    .container-lista{
-        width: 100vw;
-    }
 }
 /*-960px-*/
 @media only screen and (max-width: 960px){
-
     #sobremim .sobremim-container{
         flex-direction: column;
-        padding: 5% 0;
-    }
-    #sobremim .sobremim-container p{
-        text-align: left;
     }
     #sobremim .sobremim-container img{
         padding: 0;
