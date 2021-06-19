@@ -21,6 +21,3 @@
 
 <h3 style="color: #eb7a55;">Contato</h3>
 <img src="assets/img/md/4.png">
-
-<h3 style="color: #eb7a55;">Mobile</h3>
-<img src="assets/img/md/mobile.jpg">
