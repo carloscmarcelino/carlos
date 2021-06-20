@@ -24,13 +24,13 @@
     grid-template-columns: repeat(auto-fit, minmax(250px,1fr));
 }
 #skills .container .card{
-    height:  250px;
+    height:  150px;
     width: 150px;
     background-color: var(--bg);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     border-radius: 10px;
     animation: scaledown .1s linear;
     animation-fill-mode: forwards;
@@ -39,20 +39,21 @@
     animation: scale 0.1s linear;
     animation-fill-mode: forwards;
 }
-.htmlcss{
-    height: 80%;
-}
-.htmlcss i{
-    padding: 0 5px;
-}
 #skills .container .card i{
     color: var(--laranja);
-    height: 80%;
-    font-size: 40px;
+    font-size: 50px;
 }
-#skills .container .card p{
-    font-size: 16px;
-    display: flex;
-    text-align: center;
+#skills p{
+    font-family: 'Fira Code', monospace;
+    font-weight: 300;
+    font-size: 14px;
     color: var(--branco);
+    background: var(--roxo-gradient);
+    border-radius: 5px;
+    padding: 5px 10px;
+    opacity: 0;
+    transition: opacity .5s;
+}
+#skills .card:hover p{
+    opacity: 1;
 }

@@ -29,6 +29,7 @@ header ul li a{
     font-family: 'Fira Code', monospace;
     font-size: 20px;
     color: var(--branco);
+    font-weight: 300;
 }
 header ul li a::after{
     content: '';
