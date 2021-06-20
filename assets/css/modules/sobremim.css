@@ -19,6 +19,7 @@
 #sobremim .sobremim-container p{
     font-family: 'Fira Code', monospace;
     font-size: 16px;
+    font-weight: 300;
     line-height: calc(16px*1.5);
     width: 30vw;
     color: var(--branco);
@@ -27,7 +28,8 @@
 #sobremim .sobremim-container .coments h2{
     font-family: 'Fira Code', monospace;
     color: var(--laranja);
-    font-size: 25px;
+    font-weight: 700;
+    font-size: 22px;
 }
 #sobremim .sobremim-container .coments a{
     display: block;
@@ -58,7 +60,7 @@
 #sobremim .sobremim-container .coments h3{
     font-size: 14px;
     font-family: 'Fira Code', monospace;
-    font-weight: 300;
+    font-weight: 500;
     color: var(--branco);
 }
 #sobremim .sobremim-container .coments i{

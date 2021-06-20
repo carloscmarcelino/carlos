@@ -13,9 +13,9 @@
 }
 #contato .container h2{
     color: var(--branco);
-    font-size: 18px;
+    font-size: 20px;
     font-family: 'Fira Code', monospace;
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
     font-weight: normal;
     margin-bottom: 10px;

@@ -10,7 +10,8 @@
 }
 #projetos h1{
     font-family: 'Fira Code', monospace;
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 700;
     color: var(--laranja);
     text-align: center;
     margin-bottom: 20px;
@@ -59,6 +60,7 @@
 #projetos h2{
     font-family: 'Fira Code', monospace;
     font-size: 18px;
+    font-weight: 500;
     color: var(--laranja);
     text-align: center;
 }
@@ -66,12 +68,12 @@
     font-family: 'Fira Code', monospace;
     font-size: 14px;
     line-height: calc(14px*1.5);
+    font-weight: 300;
     text-align: center;
     color: var(--branco);
-    min-height: 80px;
     display: flex;
     align-items: center;
-    margin: 20px;
+    margin: 10px 0;
 }
 #projetos-card .card ul{
     display: flex;

@@ -11,7 +11,8 @@
 #skills h2{
     margin-bottom: 20px;
     font-family: 'Fira Code', monospace;
-    font-size: 25px;
+    font-size: 22px;
+    font-weight: 500;
     color: var(--laranja);
     text-align: center;
 }
@@ -41,7 +42,7 @@
 }
 #skills .container .card i{
     color: var(--laranja);
-    font-size: 50px;
+    font-size: 40px;
 }
 #skills p{
     font-family: 'Fira Code', monospace;
