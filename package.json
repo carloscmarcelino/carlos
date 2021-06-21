@@ -4,7 +4,8 @@
   "description": "<h2 style=\"color: #eb7a55;\">Um site carinhosamente feito por mim.\r falando um pouco sobre minhas habilidades, alguns projetos etc.</h2>",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack --mode production ./assets/js/script.js -o ./assets/js/main.js",
+    "dev": "webpack --mode development --watch ./assets/js/script.js -o ./assets/js/main.js"
   },
   "repository": {
     "type": "git",
