@@ -33,6 +33,7 @@ header{
                 font-size: 18px;
                 color: var(--branco);
                 font-weight: 400;
+                position: relative;
                 &::after{
                     content: '';
                     width: 100%;
