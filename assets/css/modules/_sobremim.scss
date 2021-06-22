@@ -71,3 +71,22 @@
         }
     }
 }
+/*-960px-*/
+@media only screen and (max-width: 960px){
+    #sobremim .sobremim-container{
+        flex-direction: column;
+        img{
+            padding: 0;
+            margin: 0;
+        }
+        .txt{         
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            p{
+                width: 90vw;
+                height: auto;
+            }
+        }
+    }
+}

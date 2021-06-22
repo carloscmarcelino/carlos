@@ -171,6 +171,16 @@ header ul li + li {
   color: var(--laranja);
 }
 
+@media only screen and (max-width: 1000px) {
+  #inicio {
+    text-align: center;
+  }
+  #inicio .inicio-container {
+    padding: 0;
+    margin: 0;
+  }
+}
+
 #sobremim {
   width: 100vw;
   height: auto;
@@ -283,6 +293,36 @@ header ul li + li {
   color: var(--branco);
 }
 
+/*-960px-*/
+@media only screen and (max-width: 960px) {
+  #sobremim .sobremim-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  #sobremim .sobremim-container img {
+    padding: 0;
+    margin: 0;
+  }
+  #sobremim .sobremim-container .txt {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  #sobremim .sobremim-container .txt p {
+    width: 90vw;
+    height: auto;
+  }
+}
+
 #conhecimentos {
   height: auto;
   width: 100%;
@@ -300,7 +340,7 @@ header ul li + li {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 #conhecimentos h2 {
@@ -395,7 +435,7 @@ header ul li + li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 #projetos h1 {
@@ -523,7 +563,7 @@ header ul li + li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 50px 0;
+  padding: 100px 0;
 }
 
 #skills h2 {
@@ -544,8 +584,8 @@ header ul li + li {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px 0px;
-  -ms-grid-columns: (minmax(250px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
 }
 
 #skills .container .card {
@@ -852,84 +892,6 @@ footer i:hover {
   100% {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
-  }
-}
-
-/*-1000px-*/
-@media only screen and (max-width: 1000px) {
-  #inicio {
-    text-align: center;
-  }
-  #inicio .inicio-container {
-    padding: 0;
-    margin: 0;
-  }
-}
-
-/*-960px-*/
-@media only screen and (max-width: 960px) {
-  #sobremim .sobremim-container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-  #sobremim .sobremim-container img {
-    padding: 0;
-    margin: 0;
-  }
-  #sobremim .sobremim-container .coments {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  #sobremim .sobremim-container .coments p {
-    width: 90vw;
-    height: auto;
-  }
-  #sobremim .sobremim-container .coments h2 {
-    padding-top: 2%;
-  }
-}
-
-/*-460px-*/
-@media only screen and (max-width: 460px) {
-  #sobremim .sobremim-container .coments p {
-    padding-top: 2%;
-  }
-  #sobremim .sobremim-container img {
-    height: 150px;
-  }
-}
-
-/*330px*/
-@media only screen and (max-width: 330px) {
-  footer i {
-    margin: 10px 20px;
-  }
-}
-
-/*311px*/
-@media only screen and (max-width: 311px) {
-  #projetos .container .card {
-    width: 200px;
-  }
-  #projetos-card .card ul li {
-    min-width: auto;
-  }
-}
-
-/*285px*/
-@media only screen and (max-width: 285px) {
-  #sobremim .sobremim-container img {
-    height: 125px;
   }
 }
 /*# sourceMappingURL=style.css.map */
