@@ -550,28 +550,6 @@ header ul li + li {
   font-weight: 300;
 }
 
-@keyframes scaledown {
-  0% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-  100% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-}
-
-@keyframes scale {
-  0% {
-    -webkit-transform: scale(1);
-            transform: scale(1);
-  }
-  100% {
-    -webkit-transform: scale(1.1);
-            transform: scale(1.1);
-  }
-}
-
 #skills {
   width: 100vw;
   height: 75%;
