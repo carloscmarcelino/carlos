@@ -5,13 +5,13 @@ footer{
     align-items: center;
     justify-content: center;
     background: var(--roxo-gradient);
-}
-footer i{
-    font-size: 25px;
-    margin: 0 20px;
-    color: var(--branco);
-    transition: .3s;
-}
-footer i:hover{
-    color: var(--laranja);
+    i{
+        font-size: 25px;
+        margin: 0 20px;
+        color: var(--branco);
+        transition: .3s;
+        &:hover{
+            color: var(--laranja);
+        }
+    }
 }

@@ -43,7 +43,7 @@ header.hd-Animated {
   height: 6vh;
 }
 
-#header h2 {
+header h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 300;
   color: var(--branco);
@@ -62,10 +62,6 @@ header ul {
       -ms-flex-pack: center;
           justify-content: center;
   height: 10vh;
-}
-
-header li + li {
-  padding-left: 4vw;
 }
 
 header ul li a {
@@ -105,6 +101,10 @@ header ul li a::after {
 header ul li a:hover::after {
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
+}
+
+header ul li + li {
+  padding-left: 4vw;
 }
 
 #inicio {
@@ -201,7 +201,17 @@ header ul li a:hover::after {
   margin-right: 5vw;
 }
 
-#sobremim .sobremim-container p {
+#sobremim .sobremim-container .txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#sobremim .sobremim-container .txt p {
   font-family: 'IBM Plex Sans', sans-serif;
   font-size: 16px;
   font-weight: 300;
@@ -211,20 +221,20 @@ header ul li a:hover::after {
   margin: 10px 0;
 }
 
-#sobremim .sobremim-container .coments h2 {
+#sobremim .sobremim-container .txt h2 {
   font-family: 'IBM Plex Sans', sans-serif;
   color: var(--laranja);
   font-weight: 500;
   font-size: 22px;
 }
 
-#sobremim .sobremim-container .coments a {
+#sobremim .sobremim-container .txt a {
   display: block;
   width: 120px;
   margin: 20px 0 0 0;
 }
 
-#sobremim .sobremim-container .coments a button {
+#sobremim .sobremim-container .txt a button {
   -webkit-animation: scaledown .1s linear;
           animation: scaledown .1s linear;
   -webkit-animation-fill-mode: forwards;
@@ -232,14 +242,14 @@ header ul li a:hover::after {
   cursor: pointer;
 }
 
-#sobremim .sobremim-container .coments a button:hover {
+#sobremim .sobremim-container .txt a button:hover {
   -webkit-animation: scale 0.1s linear;
           animation: scale 0.1s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
-#sobremim .sobremim-container .coments button {
+#sobremim .sobremim-container .txt a button {
   background: var(--roxo-gradient);
   border-radius: 5px;
   height: auto;
@@ -261,14 +271,14 @@ header ul li a:hover::after {
   padding: 15px 15px;
 }
 
-#sobremim .sobremim-container .coments h3 {
+#sobremim .sobremim-container .txt h3 {
   font-size: 16px;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
   color: var(--branco);
 }
 
-#sobremim .sobremim-container .coments i {
+#sobremim .sobremim-container .txt i {
   margin: 0 5px;
   color: var(--branco);
 }
@@ -315,8 +325,7 @@ header ul li a:hover::after {
 }
 
 #conhecimentos .container .card {
-  width: 300px;
-  height: auto;
+  min-width: 300px;
   min-height: 250px;
   background: var(--bg-panel);
   display: -webkit-box;
@@ -488,6 +497,59 @@ header ul li a:hover::after {
           animation-fill-mode: forwards;
 }
 
+#projetos .container .card h2 {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--laranja);
+  text-align: center;
+}
+
+#projetos .container .card p {
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-size: 16px;
+  line-height: calc(16px*1.5);
+  font-weight: 300;
+  text-align: center;
+  color: var(--branco);
+  margin: 25px 0;
+  max-width: 300px;
+}
+
+#projetos .container .card ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+#projetos .container .card ul li {
+  border: 1px solid #9B30F9;
+  background: var(--roxo-gradient);
+  color: var(--branco);
+  border-radius: 5px;
+  font-size: 16px;
+  min-width: 80px;
+  width: auto;
+  height: auto;
+  text-align: center;
+  padding: 5px 5px;
+  margin: 5px 5px;
+  font-family: 'IBM Plex Sans', sans-serif;
+  font-weight: 300;
+}
+
 @keyframes scaledown {
   0% {
     -webkit-transform: scale(1.1);
@@ -508,59 +570,6 @@ header ul li a:hover::after {
     -webkit-transform: scale(1.1);
             transform: scale(1.1);
   }
-}
-
-#projetos h2 {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--laranja);
-  text-align: center;
-}
-
-#projetos-card .card p {
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 16px;
-  line-height: calc(16px*1.5);
-  font-weight: 300;
-  text-align: center;
-  color: var(--branco);
-  margin: 25px 0;
-  max-width: 300px;
-}
-
-#projetos-card .card ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-}
-
-#projetos-card .card ul li {
-  border: 1px solid #9B30F9;
-  background: var(--roxo-gradient);
-  color: var(--branco);
-  border-radius: 5px;
-  font-size: 16px;
-  min-width: 80px;
-  width: auto;
-  height: auto;
-  text-align: center;
-  padding: 5px 5px;
-  margin: 5px 5px;
-  font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 300;
 }
 
 #skills {
@@ -636,12 +645,16 @@ header ul li a:hover::after {
           animation-fill-mode: forwards;
 }
 
+#skills .container .card:hover p {
+  opacity: 1;
+}
+
 #skills .container .card i {
   color: var(--laranja);
   font-size: 40px;
 }
 
-#skills p {
+#skills .container .card p {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
   font-size: 16px;
@@ -652,10 +665,6 @@ header ul li a:hover::after {
   opacity: 0;
   -webkit-transition: opacity .5s;
   transition: opacity .5s;
-}
-
-#skills .card:hover p {
-  opacity: 1;
 }
 
 #contato {
@@ -702,7 +711,7 @@ header ul li a:hover::after {
           flex-direction: column;
 }
 
-#contato li {
+#contato ul li {
   color: var(--branco);
   text-align: center;
   font-size: 16px;
