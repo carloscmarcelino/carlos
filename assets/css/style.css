@@ -290,7 +290,7 @@ header ul li a:hover::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 #conhecimentos h2 {
@@ -430,7 +430,7 @@ header ul li a:hover::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 #projetos h1 {
@@ -580,7 +580,7 @@ header ul li a:hover::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 100px 0;
+  padding: 50px 0;
 }
 
 #skills h2 {
