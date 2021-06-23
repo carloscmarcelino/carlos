@@ -31,8 +31,9 @@
     header ul a{
         margin-left: 50px;
     }
-    header li + li{
+    header ul li + li{
         padding-left: 0;
+        padding-bottom: 5px;
     }
     header li{
         padding: 5px 0;
