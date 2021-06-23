@@ -13,8 +13,9 @@ scrollBar();
 import scrollTop from './modules/scrollTop.js';
 scrollTop();
 
-import debounce from './modules/debounce.js';
-debounce();
-
 import menuMobile from './modules/menuMobile.js';
 menuMobile();
+/*
+npm run dev
+npm run build
+*/
