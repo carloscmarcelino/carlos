@@ -1,19 +1,19 @@
-export default function Header(){
+export default function Header () {
     const menuItens = document.querySelectorAll('header a[href^="#"]')
-    menuItens.forEach(item => {
+    menuItens.forEach (item => {
         item.addEventListener('click', scrollToIdOnClick)
     })
-    function getScrollTopByHref(element){
+    function getScrollTopByHref (element) {
         const id = element.getAttribute('href')
         return document.querySelector(id).offsetTop
     }
-    function scrollToIdOnClick(event){
+    function scrollToIdOnClick (event) {
         event.preventDefault()
 
         const to = getScrollTopByHref(event.target)
         scrollToPosition(to)
     }
-    function scrollToPosition(to){
+    function scrollToPosition (to) {
         window.scroll({
             top: to,
             behavior: "smooth",
