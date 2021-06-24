@@ -48,3 +48,18 @@
         }
     }
 }
+@media only screen and (max-width: 500px){
+    #inicio{
+        .inicio-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            h2{
+            }
+            h1{
+                width: 90%;
+            }
+        }
+    }
+}
