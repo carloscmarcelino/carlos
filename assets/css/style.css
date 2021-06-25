@@ -697,26 +697,13 @@ header ul li + li {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-}
-
-#contato .container {
-  width: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
 }
 
-#contato .container h2 {
+#contato h2 {
   color: var(--branco);
   font-size: 22px;
   font-family: 'Josefin Sans', sans-serif;
@@ -726,13 +713,28 @@ header ul li + li {
   margin-bottom: 10px;
 }
 
-#contato .container form {
+#contato .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  width: 100%;
+  /*Form*/
+  /*Dados*/
+}
+
+#contato .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -746,18 +748,18 @@ header ul li + li {
 #contato .container form label {
   color: var(--branco);
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'Josefin Sans', sans-serif;
   line-height: calc(16px*2);
   letter-spacing: 1px;
   font-weight: 300;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 #contato .container form input {
   border: 4px solid var(--laranja);
   height: 38px;
-  width: 300px;
+  width: 400px;
   font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 400;
   font-size: 18px;
@@ -784,7 +786,43 @@ header ul li + li {
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
   color: var(--branco);
-  margin-top: 20px;
+  margin-top: 10px;
+}
+
+#contato .container .container-dados {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contato .container .container-dados ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#contato .container .container-dados ul li {
+  color: var(--branco);
+  text-align: center;
+  font-size: 16px;
+  font-family: 'Josefin Sans', sans-serif;
+  line-height: calc(16px*2);
+  letter-spacing: 1px;
+  font-weight: 300;
 }
 
 footer {
