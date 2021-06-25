@@ -708,31 +708,10 @@ header ul li + li {
   font-size: 22px;
   font-weight: 500;
   color: var(--laranja);
-}
-
-#contato h2.contato {
   margin-bottom: 20px;
 }
 
-#contato .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  width: 80%;
-  /*Form*/
-  /*Dados*/
-}
-
-#contato .container form {
+#contato form {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -748,124 +727,61 @@ header ul li + li {
           flex-direction: column;
 }
 
-#contato .container form label:nth-child(1) {
-  margin-top: 20px;
-}
-
-#contato .container form label {
+#contato form label {
   text-align: center;
   margin-top: 10px;
-  letter-spacing: 1px;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 300;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 18px;
   color: var(--branco);
 }
 
-#contato .container form input {
-  border: 4px solid var(--laranja);
+#contato form input {
+  border: 2px solid var(--laranja);
   height: 38px;
   width: 400px;
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
   color: #000;
 }
 
-#contato .container form textarea {
+#contato form textarea {
   height: 120px;
   width: 400px;
   color: #000;
-  border: 4px solid var(--laranja);
+  border: 2px solid var(--laranja);
   line-height: calc(16px*2);
   font-family: Georgia, 'Times New Roman', Times, serif;
-  font-weight: 400;
+  font-weight: 300;
   font-size: 18px;
 }
 
-#contato .container form button {
+#contato form button {
   background: var(--roxo-gradient);
-  border-radius: 5px;
   border: 1px solid var(--roxo-gradient);
-  font-size: 16px;
+  font-size: 18px;
   font-family: 'IBM Plex Sans', sans-serif;
-  font-weight: 300;
+  font-weight: 400;
   color: var(--branco);
   margin-top: 10px;
   width: 150px;
   height: 40px;
 }
 
-#contato .container .container-dados {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#contato .container .container-dados h2 {
-  color: var(--branco);
-  font-size: 20px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 400;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
-
-#contato .container .container-dados ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-}
-
-#contato .container .container-dados ul li {
-  color: var(--branco);
-  text-align: center;
-  font-size: 18px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-weight: 300;
-  line-height: calc(16px*2);
-  letter-spacing: 1px;
-}
-
-@media only screen and (max-width: 800px) {
-  #contato .container {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+@media only screen and (max-width: 420px) {
+  #contato form {
     width: 95%;
   }
-  #contato .container-dados {
-    margin: 20px 0;
+  #contato form label {
+    width: 100%;
+    text-align: left;
   }
-  #contato form {
-    -webkit-box-ordinal-group: 2;
-        -ms-flex-order: 1;
-            order: 1;
+  #contato form input {
+    width: 100%;
   }
-  #contato form button {
-    -ms-flex-item-align: center;
-        -ms-grid-row-align: center;
-        align-self: center;
-    width: 150px;
-    height: 40px;
+  #contato form textarea {
+    width: 100%;
   }
 }
 
