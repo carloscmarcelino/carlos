@@ -196,6 +196,20 @@
 					</div>
 				</a>
 				<a class="cards-interval">
+					<!--React-->
+					<div class="card">
+						<i class="fab fa-react"></i>
+						<p>React</p>
+					</div>
+				</a>
+				<a class="cards-interval">
+					<!--Vue-->
+					<div class="card">
+						<i class="fab fa-vuejs"></i>
+						<p>VueJS</p>
+					</div>
+				</a>
+				<a class="cards-interval">
 					<!--GIT-VERSIONAMENTO-->
 					<div class="card">
 						<i class="fas fa-code-branch"></i>
@@ -207,12 +221,12 @@
 		<div id="contato">
 			<h2 class="contato cards-intervalLeft">Contato</h2>
 			<form class="cards-intervalLeft" action="https://formspree.io/f/xoqylqkk" method="POST">
-				<label>Nome:</label>
-				<input type="text" name="nome" required>
+				<label for="nome">Nome:</label>
+				<input type="text" name="nome" id="nome" required>
 				<label for="email">E-mail:</label>
-				<input type="email" required>
+				<input type="email" id="email" required>
 				<label for="mensagem">Mensagem:</label>
-				<textarea name="mensagem" required></textarea>
+				<textarea name="mensagem" id="mensagem" required></textarea>
 				<button type="submit" name="enviar">Enviar</button>
 			</form>
 		</div>
