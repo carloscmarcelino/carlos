@@ -15,6 +15,10 @@ header{
             font-size: 24px;
             letter-spacing: 6px;
             color: var(--branco);
+            transition: .5s;
+            &:hover{
+                color: var(--laranja);
+            }
         }
     }
     &.hd-Animated{

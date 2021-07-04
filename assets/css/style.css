@@ -44,6 +44,12 @@ header .logo h2 {
   font-size: 24px;
   letter-spacing: 6px;
   color: var(--branco);
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+header .logo h2:hover {
+  color: var(--laranja);
 }
 
 header.hd-Animated {
@@ -260,13 +266,17 @@ header ul li + li {
   font-size: 22px;
 }
 
-#sobremim .sobremim-container .txt a {
-  display: block;
-  width: 120px;
-  margin: 20px 0 0 0;
+#sobremim .sobremim-container .txt .btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
-#sobremim .sobremim-container .txt a button {
+#sobremim .sobremim-container .txt .btns a + a {
+  margin-left: 10px;
+}
+
+#sobremim .sobremim-container .txt .btns a button {
   -webkit-animation: scaledown .1s linear;
           animation: scaledown .1s linear;
   -webkit-animation-fill-mode: forwards;
@@ -274,14 +284,14 @@ header ul li + li {
   cursor: pointer;
 }
 
-#sobremim .sobremim-container .txt a button:hover {
+#sobremim .sobremim-container .txt .btns a button:hover {
   -webkit-animation: scale 0.1s linear;
           animation: scale 0.1s linear;
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
 
-#sobremim .sobremim-container .txt a button {
+#sobremim .sobremim-container .txt .btns a button {
   background: var(--roxo-gradient);
   border-radius: 5px;
   height: auto;
@@ -301,16 +311,17 @@ header ul li + li {
           justify-content: center;
   border: 1px solid var(--roxo-gradient);
   padding: 15px 15px;
+  min-width: 120px;
 }
 
-#sobremim .sobremim-container .txt h3 {
+#sobremim .sobremim-container .txt .btns a h3 {
   font-size: 16px;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
   color: var(--branco);
 }
 
-#sobremim .sobremim-container .txt i {
+#sobremim .sobremim-container .txt .btns a i {
   margin: 0 5px;
   color: var(--branco);
 }

@@ -32,41 +32,45 @@
                 font-weight: 500;
                 font-size: 22px;
             }
-            a{
-                display: block;
-                width: 120px;
-                margin: 20px 0 0 0;
-                button{
-                    animation: scaledown .1s linear;
-                    animation-fill-mode: forwards;
-                    cursor: pointer;
-                    &:hover{
-                        animation: scale 0.1s linear;
+            .btns{
+                display: flex;
+                a + a{
+                    margin-left: 10px;
+                }
+                a{
+                    button{
+                        animation: scaledown .1s linear;
                         animation-fill-mode: forwards;
+                        cursor: pointer;
+                        &:hover{
+                            animation: scale 0.1s linear;
+                            animation-fill-mode: forwards;
+                        }
+                    }
+                    button{
+                        background: var(--roxo-gradient);
+                        border-radius: 5px;
+                        height: auto;
+                        width: auto;
+                        display: flex;
+                        flex-direction: row;
+                        align-items: center;
+                        justify-content: center;
+                        border: 1px solid var(--roxo-gradient);
+                        padding: 15px 15px;
+                        min-width: 120px;
+                    }
+                    h3{
+                        font-size: 16px;
+                        font-family: 'IBM Plex Sans', sans-serif;
+                        font-weight: 300;
+                        color: var(--branco);
+                    }
+                    i{
+                        margin: 0 5px;
+                        color: var(--branco);
                     }
                 }
-                button{
-                    background: var(--roxo-gradient);
-                    border-radius: 5px;
-                    height: auto;
-                    width: auto;
-                    display: flex;
-                    flex-direction: row;
-                    align-items: center;
-                    justify-content: center;
-                    border: 1px solid var(--roxo-gradient);
-                    padding: 15px 15px;
-                }
-            }
-            h3{
-                font-size: 16px;
-                font-family: 'IBM Plex Sans', sans-serif;
-                font-weight: 300;
-                color: var(--branco);
-            }
-            i{
-                margin: 0 5px;
-                color: var(--branco);
             }
         }
     }
