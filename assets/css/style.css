@@ -392,13 +392,13 @@ header ul li + li {
       -ms-flex-pack: center;
           justify-content: center;
   grid-gap: 30px 40px;
-  -ms-grid-columns: (minmax(450px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
   width: 90vw;
 }
 
 #conhecimentos .container .card {
-  width: 450px;
+  width: 400px;
   min-height: 250px;
   background: var(--bg-panel);
   display: -webkit-box;
@@ -434,6 +434,7 @@ header ul li + li {
   font-size: 18px;
   font-weight: 500;
   color: var(--laranja);
+  text-align: center;
 }
 
 #conhecimentos .container .card p {
@@ -449,6 +450,18 @@ header ul li + li {
 #conhecimentos .container .card i {
   color: #9B30F9;
   font-size: 30px;
+}
+
+/*-450px-*/
+@media only screen and (max-width: 450px) {
+  #conhecimentos .container {
+    width: 100%;
+    -ms-grid-columns: (minmax(95%, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(95%, 1fr));
+  }
+  #conhecimentos .container .card {
+    width: 95%;
+  }
 }
 
 #projetos {
