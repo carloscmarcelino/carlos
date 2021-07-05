@@ -507,9 +507,8 @@ header ul li + li {
 }
 
 #projetos .container .card {
-  height: auto;
   min-height: 300px;
-  min-width: 300px;
+  width: 300px;
   background-color: var(--bg);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -590,6 +589,18 @@ header ul li + li {
   margin: 5px 5px;
   font-family: 'IBM Plex Sans', sans-serif;
   font-weight: 300;
+}
+
+/*-450px-*/
+@media only screen and (max-width: 450px) {
+  #projetos .container {
+    width: 95%;
+    -ms-grid-columns: (minmax(95%, 1fr))[auto-fit];
+        grid-template-columns: repeat(auto-fit, minmax(95%, 1fr));
+  }
+  #projetos .container .card {
+    width: 100%;
+  }
 }
 
 #skills {

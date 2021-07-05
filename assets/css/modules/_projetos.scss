@@ -23,9 +23,8 @@
         grid-gap: 30px 40px;
         grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
         .card{
-            height:  auto;
             min-height: 300px;
-            min-width: 300px;
+            width: 300px;
             background-color: var(--bg);
             display: flex;
             flex-direction: column;
@@ -79,5 +78,15 @@
                 }
             }
         }
+    }
+}
+/*-450px-*/
+@media only screen and (max-width: 450px){
+    #projetos .container{
+        width: 95%;
+        grid-template-columns: repeat(auto-fit, minmax(95%,1fr));
+    }
+    #projetos .container .card{
+        width: 100%;
     }
 }
