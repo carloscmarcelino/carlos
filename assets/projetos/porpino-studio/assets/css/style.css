@@ -111,6 +111,7 @@ main {
 
 main .parallax {
   height: 100vh;
+  height: 104vh;
   width: 100%;
   background: url(../img/bg1.jpg) no-repeat center fixed;
   margin: 0 auto;
@@ -404,7 +405,7 @@ footer .container ul li i {
     display: block;
     position: absolute;
     width: 50%;
-    top: 45px;
+    top: 40px;
     right: 0px;
     background: var(--cinza);
     -webkit-transition: .6s;
@@ -415,7 +416,7 @@ footer .container ul li i {
     overflow-y: hidden;
   }
   header.active ul {
-    height: calc(30vh - 70px);
+    height: calc(22vh);
     visibility: visible;
     overflow-y: auto;
     padding: 10px 0;
