@@ -22,15 +22,11 @@ header{
         background: var(--bg-panel);
     }
     ul{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        @include FlexCenter;
         height: 10vh;
         li{
             a{
-                display: flex;
-                justify-content: center;
-                align-items: center;
+                @include FlexCenter;
                 font-family: $fontIbm;
                 font-size: 18px;
                 color: var(--branco);

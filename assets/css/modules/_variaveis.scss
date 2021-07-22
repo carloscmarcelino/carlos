@@ -14,3 +14,9 @@ $fontForm: Georgia, 'Times New Roman', Times, serif;
 $fontWeight1: 500;
 $fontWeight2: 400;
 $fontWeight3: 300;
+
+@mixin FlexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

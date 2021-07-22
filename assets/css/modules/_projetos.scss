@@ -2,10 +2,8 @@
     width: 100vw;
     height: auto;
     background-color: var(--bg-panel);
-    display: flex;
+    @include FlexCenter;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
     padding: 100px 0;
     h1{
         font-family: $fontIbm;
@@ -80,9 +78,7 @@
                 max-width: 300px;
             }
             ul{
-                display: flex;
-                align-items: center;
-                justify-content: center;
+                @include FlexCenter;
                 flex-direction: row;
                 flex-wrap: wrap;
                 max-width: 300px;

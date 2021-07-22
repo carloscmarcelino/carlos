@@ -3,10 +3,8 @@
     height: auto;
     background-color: var(--bg-panel);
     .sobremim-container{
-        display: flex;
+        @include FlexCenter;
         flex-direction: row;
-        align-items: center;
-        justify-content: center;
         width: 100%;
         padding: 100px 0;
         img{
@@ -52,10 +50,8 @@
                         border-radius: 5px;
                         height: auto;
                         width: auto;
-                        display: flex;
+                        @include FlexCenter;
                         flex-direction: row;
-                        align-items: center;
-                        justify-content: center;
                         border: 1px solid var(--roxo-gradient);
                         padding: 15px 15px;
                         min-width: 120px;

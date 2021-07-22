@@ -1,9 +1,7 @@
 #inicio{
     height: 100vh;
     width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include FlexCenter;
     .inicio-container{
         display: inline-block;
         margin-right: 30%;
@@ -51,9 +49,7 @@
 @media only screen and (max-width: 500px){
     #inicio{
         .inicio-container{
-            display: flex;
-            align-items: center;
-            justify-content: center;
+            @include FlexCenter;
             flex-direction: column;
             h1{
                 width: 90%;
