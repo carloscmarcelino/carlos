@@ -41,7 +41,7 @@
             width: 400px;
             color: #000;
             border: 2px solid var(--laranja);
-            line-height: calc(16px*2);
+            line-height: calc(2 * #{$fontSize3});
             font-family: $fontForm;
             font-weight: $fontWeight3;
             font-size: $fontSize3;
