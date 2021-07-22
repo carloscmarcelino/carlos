@@ -37,7 +37,8 @@
             &:hover p{
                 opacity: 1;
             }
-            i{
+            i,
+            .iconify{
                 color: var(--laranja);
                 font-size: 40px;
             }
