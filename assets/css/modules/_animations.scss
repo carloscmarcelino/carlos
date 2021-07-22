@@ -52,3 +52,57 @@
       transform: scale(1.1);
   }
 }
+//Animação link border
+//Color: #9B30F9 ou #84e
+@keyframes animateLinkBefore{
+  0%{
+      width: 0;
+      height: 0;
+      border-top-color: var(--border-animation);
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+  }
+  50%{
+      width: 100%;
+      height: 0;
+      border-top-color: var(--border-animation);
+      border-right-color: var(--border-animation);
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+  }
+  100%{
+      width: 100%;
+      height: 100%;
+      border-top-color: var(--border-animation);
+      border-right-color: var(--border-animation);
+      border-bottom-color: transparent;
+      border-left-color: transparent;
+  }
+}
+@keyframes animateLinkAfter{
+  0%{
+      width: 0;
+      height: 0;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: transparent;
+      border-left-color: var(--border-animation);
+  }
+  50%{
+      width: 0;
+      height: 100%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: var(--border-animation);
+      border-left-color: var(--border-animation);
+  }
+  100%{
+      width: 100%;
+      height: 100%;
+      border-top-color: transparent;
+      border-right-color: transparent;
+      border-bottom-color: var(--border-animation);
+      border-left-color: var(--border-animation);
+  }
+}
