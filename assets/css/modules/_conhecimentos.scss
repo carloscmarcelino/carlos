@@ -20,7 +20,7 @@
         grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
         width: 90vw;
         .card{
-            min-width: 350px;
+            width: 350px;
             min-height: 225px;
             background: var(--bg-panel);
             display: flex;
@@ -90,6 +90,6 @@
         grid-template-columns: repeat(auto-fit, minmax(95%,1fr));
     }
     #conhecimentos .container .card{
-        width: 95%;
+        width: 90vw;
     }
 }

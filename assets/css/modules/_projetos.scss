@@ -19,10 +19,10 @@
         justify-content: center;
         display: grid;
         grid-gap: 30px 40px;
-        grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+        grid-template-columns: repeat(auto-fit, minmax(400px,1fr));
         .card{
             min-height: 250px;
-            min-width: 350px;
+            width: 350px;
             padding: 0;
             display: flex;
             flex-direction: column;
@@ -75,7 +75,7 @@
                 font-weight: $fontWeight3;
                 text-align: center;
                 color: var(--branco);
-                max-width: 300px;
+                max-width: 90%;
             }
             ul{
                 @include FlexCenter;
@@ -108,6 +108,6 @@
         grid-template-columns: repeat(auto-fit, minmax(95%,1fr));
     }
     #projetos .container .card{
-        width: 100%;
+        width: 90vw;
     }
 }

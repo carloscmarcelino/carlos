@@ -591,7 +591,7 @@ header ul li + li {
 }
 
 #conhecimentos .container .card {
-  min-width: 350px;
+  width: 350px;
   min-height: 225px;
   background: var(--bg-panel);
   display: -webkit-box;
@@ -684,7 +684,7 @@ header ul li + li {
         grid-template-columns: repeat(auto-fit, minmax(95%, 1fr));
   }
   #conhecimentos .container .card {
-    width: 95%;
+    width: 90vw;
   }
 }
 
@@ -726,13 +726,13 @@ header ul li + li {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px 40px;
-  -ms-grid-columns: (minmax(300px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
 
 #projetos .container .card {
   min-height: 250px;
-  min-width: 350px;
+  width: 350px;
   padding: 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -808,7 +808,7 @@ header ul li + li {
   font-weight: 300;
   text-align: center;
   color: var(--branco);
-  max-width: 300px;
+  max-width: 90%;
 }
 
 #projetos .container .card ul {
@@ -854,7 +854,7 @@ header ul li + li {
         grid-template-columns: repeat(auto-fit, minmax(95%, 1fr));
   }
   #projetos .container .card {
-    width: 100%;
+    width: 90vw;
   }
 }
 
@@ -896,8 +896,8 @@ header ul li + li {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px 0px;
-  -ms-grid-columns: (minmax(150px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
 
 #skills .container .card {
@@ -1105,7 +1105,7 @@ header ul li + li {
 
 @media only screen and (max-width: 420px) {
   #contato form {
-    width: 95%;
+    width: 90vw;
   }
   #contato form label {
     width: 100%;
