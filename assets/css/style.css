@@ -1068,13 +1068,15 @@ footer i:hover {
     overflow-y: hidden;
   }
   header.active ul {
-    height: 26vh;
+    height: 175px;
     visibility: visible;
     overflow-y: auto;
     padding-right: 30px;
   }
   header ul a {
     margin-left: 30px;
+    padding-top: 2.5px;
+    padding-bottom: 2.5px;
   }
   header li + li {
     padding-left: 0;
