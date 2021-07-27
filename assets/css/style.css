@@ -549,149 +549,10 @@ header ul li + li {
   }
 }
 
-#conhecimentos {
-  height: auto;
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background: var(--bg);
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  padding: 100px 0;
-}
-
-#conhecimentos h2 {
-  margin-bottom: 20px;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 22px;
-  font-weight: 500;
-  color: var(--laranja);
-}
-
-#conhecimentos .container {
-  display: -ms-grid;
-  display: grid;
-  justify-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  grid-gap: 30px 40px;
-  -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
-      grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-  width: 90vw;
-}
-
-#conhecimentos .container .card {
-  width: 350px;
-  min-height: 225px;
-  background: var(--bg-panel);
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-animation: scaledown .1s linear;
-          animation: scaledown .1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-  padding: 0;
-}
-
-#conhecimentos .container .card::before {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  width: 0;
-  height: 0;
-  background: transparent;
-  border: 2px solid transparent;
-}
-
-#conhecimentos .container .card:hover::before {
-  -webkit-animation: animateLinkBefore 0.5s linear forwards;
-          animation: animateLinkBefore 0.5s linear forwards;
-}
-
-#conhecimentos .container .card::after {
-  content: '';
-  position: absolute;
-  top: -2px;
-  left: -2px;
-  width: 0;
-  height: 0;
-  background: transparent;
-  border: 2px solid transparent;
-}
-
-#conhecimentos .container .card:hover::after {
-  -webkit-animation: animateLinkAfter 0.5s linear forwards;
-          animation: animateLinkAfter 0.5s linear forwards;
-}
-
-#conhecimentos .container .card:hover {
-  -webkit-animation: scale .1s linear;
-          animation: scale .1s linear;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
-}
-
-#conhecimentos .container .card h1 {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 18px;
-  font-weight: 500;
-  color: var(--laranja);
-  text-align: center;
-}
-
-#conhecimentos .container .card p {
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 16px;
-  line-height: calc(1.5 * 16px);
-  font-weight: 300;
-  color: var(--branco);
-  width: 90%;
-  text-align: center;
-}
-
-#conhecimentos .container .card i {
-  color: #9B30F9;
-  font-size: 30px;
-}
-
-/*-450px-*/
-@media only screen and (max-width: 450px) {
-  #conhecimentos .container {
-    width: 100%;
-    -ms-grid-columns: (minmax(95%, 1fr))[auto-fit];
-        grid-template-columns: repeat(auto-fit, minmax(95%, 1fr));
-  }
-  #conhecimentos .container .card {
-    width: 90vw;
-  }
-}
-
 #projetos {
   width: 100vw;
   height: auto;
-  background-color: var(--bg-panel);
+  background: #282A2D;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -747,7 +608,7 @@ header ul li + li {
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
-  background-color: var(--bg);
+  background-color: #1B1D20;
   -webkit-animation: scaledown .1s linear;
           animation: scaledown .1s linear;
   -webkit-animation-fill-mode: forwards;
@@ -861,7 +722,7 @@ header ul li + li {
 #skills {
   width: 100vw;
   height: 75%;
-  background-color: var(--bg);
+  background: #1B1D20;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -903,7 +764,7 @@ header ul li + li {
 #skills .container .card {
   height: 150px;
   width: 150px;
-  background-color: var(--bg-panel);
+  background: #282A2D;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1016,7 +877,7 @@ header ul li + li {
 #contato {
   height: auto;
   width: 100%;
-  background: var(--bg-panel);
+  background: #282A2D;
   padding: 100px 0;
   display: -webkit-box;
   display: -ms-flexbox;

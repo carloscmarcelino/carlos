@@ -7,8 +7,5 @@
 #### Sobre
 <img src="assets/img/md/2.png">
 
-#### Projetos
+#### Skills
 <img src="assets/img/md/3.png">
-
-#### contato
-<img src="assets/img/md/4.png">
