@@ -15,10 +15,10 @@ export default function svgAnime() {
 
   $(document).scroll(function () {
     let documentTop = $(this).scrollTop();
-    if (documentTop > boxTop('#skills') - 600) {
+    if (documentTop > boxTop('#skills .container') - 600) {
       $('svg').addClass('animate');
-    } else {
+    }/*else {
       $('svg').removeClass('animate');
-    }
+    }*/
   });
 }
