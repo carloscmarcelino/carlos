@@ -50,8 +50,8 @@
                 background: var(--roxo-gradient);
                 border-radius: 5px;
                 padding: 5px 10px;
-                opacity: 0;
-                transition: opacity .5s;
+                /*opacity: 0;
+                transition: opacity .5s;*/
             }
             @media only screen and (max-width: 1350px){
                 @include animationBorder;
@@ -81,6 +81,15 @@
                     transition: all .2s ease;
                 }
             }
+        }
+    }
+    svg.animate path {
+        animation: svg-animate 2s forwards;
+    }
+    @keyframes svg-animate {
+        from {}
+        to {
+            stroke-dashoffset: 0;
         }
     }
 }

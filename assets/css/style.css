@@ -809,9 +809,8 @@ header ul li + li {
   background: var(--roxo-gradient);
   border-radius: 5px;
   padding: 5px 10px;
-  opacity: 0;
-  -webkit-transition: opacity .5s;
-  transition: opacity .5s;
+  /*opacity: 0;
+                transition: opacity .5s;*/
 }
 
 @media only screen and (max-width: 1350px) {
@@ -871,6 +870,27 @@ header ul li + li {
             transform: translate(0, 5px);
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
+  }
+}
+
+#skills svg.animate path {
+  -webkit-animation: svg-animate 2s forwards;
+          animation: svg-animate 2s forwards;
+}
+
+@-webkit-keyframes svg-animate {
+  from {
+  }
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes svg-animate {
+  from {
+  }
+  to {
+    stroke-dashoffset: 0;
   }
 }
 
