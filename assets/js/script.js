@@ -18,6 +18,3 @@ menuMobile();
 
 import idade from './modules/idade.js';
 idade();
-
-import svgAnime from './modules/svgAnime';
-svgAnime();

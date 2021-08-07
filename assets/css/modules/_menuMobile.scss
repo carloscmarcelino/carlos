@@ -9,11 +9,12 @@
     }
     header h2{
         margin: 0 50px;
+        margin-bottom: 5px;
     }
     header ul{
         display: block;
         position: absolute;
-        top: 40px;
+        top: 45px;
         right: 0px;
         background: var(--bg-panel);
         transition: .6s;
@@ -48,6 +49,7 @@
         cursor: pointer;
         gap: .5rem;
         margin-right: 25px;
+        margin-bottom: 5px;
     }
     #hamburger{
         display: block;

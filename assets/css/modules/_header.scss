@@ -1,25 +1,25 @@
 header{
     width: 100%;
-    height: 6vh;
+    height: 10vh;
     background: var(--bg);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     position: fixed;
     z-index: 999;
-    transition: .6s;
+    transition: .3s;
+    &.hd-Animated{
+        background: var(--bg-panel);
+        height: 6vh;
+    }
     .logo{
         h2{
             font-family: $fontJosefin;
             font-weight: $fontWeight3;
             font-size: 24px;
-            letter-spacing: 6px;
+            letter-spacing: 5px;
             color: var(--branco);
-            transition: .5s;
         }
-    }
-    &.hd-Animated{
-        background: var(--bg-panel);
     }
     ul{
         @include FlexCenter;

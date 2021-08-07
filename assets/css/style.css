@@ -219,7 +219,7 @@ body {
 
 header {
   width: 100%;
-  height: 6vh;
+  height: 10vh;
   background: var(--bg);
   display: -webkit-box;
   display: -ms-flexbox;
@@ -232,22 +232,21 @@ header {
           justify-content: space-evenly;
   position: fixed;
   z-index: 999;
-  -webkit-transition: .6s;
-  transition: .6s;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+header.hd-Animated {
+  background: var(--bg-panel);
+  height: 6vh;
 }
 
 header .logo h2 {
   font-family: "Josefin Sans", sans-serif;
   font-weight: 300;
   font-size: 24px;
-  letter-spacing: 6px;
+  letter-spacing: 5px;
   color: var(--branco);
-  -webkit-transition: .5s;
-  transition: .5s;
-}
-
-header.hd-Animated {
-  background: var(--bg-panel);
 }
 
 header ul {
@@ -579,14 +578,14 @@ header ul li + li {
 }
 
 #projetos .container {
-  width: 90vw;
+  max-width: 90vw;
   justify-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   display: -ms-grid;
   display: grid;
-  grid-gap: 30px 40px;
+  grid-gap: 50px;
   -ms-grid-columns: (minmax(400px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
 }
@@ -627,8 +626,8 @@ header ul li + li {
 }
 
 #projetos .container .card:hover::before {
-  -webkit-animation: animateLinkBefore 0.5s linear forwards;
-          animation: animateLinkBefore 0.5s linear forwards;
+  -webkit-animation: animateLinkBefore .5s linear forwards;
+          animation: animateLinkBefore .5s linear forwards;
 }
 
 #projetos .container .card::after {
@@ -643,8 +642,8 @@ header ul li + li {
 }
 
 #projetos .container .card:hover::after {
-  -webkit-animation: animateLinkAfter 0.5s linear forwards;
-          animation: animateLinkAfter 0.5s linear forwards;
+  -webkit-animation: animateLinkAfter .5s linear forwards;
+          animation: animateLinkAfter .5s linear forwards;
 }
 
 #projetos .container .card:hover {
@@ -749,14 +748,14 @@ header ul li + li {
 }
 
 #skills .container {
-  width: 90vw;
+  max-width: 90vw;
   justify-items: center;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
   display: -ms-grid;
   display: grid;
-  grid-gap: 30px 0px;
+  grid-gap: 50px;
   -ms-grid-columns: (minmax(200px, 1fr))[auto-fit];
       grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
 }
@@ -809,8 +808,6 @@ header ul li + li {
   background: var(--roxo-gradient);
   border-radius: 5px;
   padding: 5px 10px;
-  /*opacity: 0;
-                transition: opacity .5s;*/
 }
 
 @media only screen and (max-width: 1350px) {
@@ -825,8 +822,8 @@ header ul li + li {
     border: 2px solid transparent;
   }
   #skills .container .card:hover::before {
-    -webkit-animation: animateLinkBefore 0.5s linear forwards;
-            animation: animateLinkBefore 0.5s linear forwards;
+    -webkit-animation: animateLinkBefore .5s linear forwards;
+            animation: animateLinkBefore .5s linear forwards;
   }
   #skills .container .card::after {
     content: '';
@@ -839,8 +836,8 @@ header ul li + li {
     border: 2px solid transparent;
   }
   #skills .container .card:hover::after {
-    -webkit-animation: animateLinkAfter 0.5s linear forwards;
-            animation: animateLinkAfter 0.5s linear forwards;
+    -webkit-animation: animateLinkAfter .5s linear forwards;
+            animation: animateLinkAfter .5s linear forwards;
   }
 }
 
@@ -870,27 +867,6 @@ header ul li + li {
             transform: translate(0, 5px);
     -webkit-transition: all .2s ease;
     transition: all .2s ease;
-  }
-}
-
-#skills svg.animate path {
-  -webkit-animation: svg-animate 2s forwards;
-          animation: svg-animate 2s forwards;
-}
-
-@-webkit-keyframes svg-animate {
-  from {
-  }
-  to {
-    stroke-dashoffset: 0;
-  }
-}
-
-@keyframes svg-animate {
-  from {
-  }
-  to {
-    stroke-dashoffset: 0;
   }
 }
 
@@ -1073,11 +1049,12 @@ footer i:hover {
   }
   header h2 {
     margin: 0 50px;
+    margin-bottom: 5px;
   }
   header ul {
     display: block;
     position: absolute;
-    top: 40px;
+    top: 45px;
     right: 0px;
     background: var(--bg-panel);
     -webkit-transition: .6s;
@@ -1115,6 +1092,7 @@ footer i:hover {
     cursor: pointer;
     gap: .5rem;
     margin-right: 25px;
+    margin-bottom: 5px;
   }
   #hamburger {
     display: block;
