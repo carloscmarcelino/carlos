@@ -219,7 +219,7 @@ body {
 
 header {
   width: 100%;
-  height: 10vh;
+  height: 8vh;
   background: var(--bg);
   display: -webkit-box;
   display: -ms-flexbox;
